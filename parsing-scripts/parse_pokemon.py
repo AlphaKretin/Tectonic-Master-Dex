@@ -5,8 +5,9 @@ import re
 def parse_basic_string(regex):
     def F(mon_text):
         match = re.search(regex, mon_text, re.MULTILINE)
-        result = match.group(1)
-        return result
+        if match:
+            result = match.group(1)
+            return result
 
     return F
 
@@ -14,9 +15,10 @@ def parse_basic_string(regex):
 def parse_number(regex):
     def F(mon_text):
         num_match = re.search(regex, mon_text, re.MULTILINE)
-        num_raw = num_match.group(1)
-        num = int(num_raw)
-        return num
+        if num_match:
+            num_raw = num_match.group(1)
+            num = int(num_raw)
+            return num
 
 
 # Index

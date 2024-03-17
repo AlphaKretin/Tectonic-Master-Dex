@@ -5,8 +5,9 @@ import re
 def parse_basic_string(regex):
     def F(abil_text):
         match = re.search(regex, abil_text, re.MULTILINE)
-        result = match.group(1)
-        return result
+        if match:
+            result = match.group(1)
+            return result
 
     return F
 
