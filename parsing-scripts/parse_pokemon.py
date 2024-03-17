@@ -1,3 +1,4 @@
+import json
 import re
 
 
@@ -122,6 +123,19 @@ def parse_base_happiness(mon_text):
 
 
 # Abilities
+with open("../data/abilities.json", "r", encoding="utf8") as infile:
+    abilities = json.loads(infile.read())
+
+
+def parse_abilities(mon_text):
+    abils_match = re.search(r"^Abilities = (.+)", mon_text, re.MULTILINE)
+    abils_raw = abils_match.group(1)
+    abils_list = abils_raw.split(",")
+    abils = [abilities[abil] for abil in abils_list]
+    # TODO: Determine if abilitiy is signature
+    return abils
+
+
 # Moves
 # LineMoves
 # TutorMoves
