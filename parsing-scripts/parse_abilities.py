@@ -2,25 +2,25 @@ import json
 import re
 
 
+def parse_basic_string(regex):
+    def F(abil_text):
+        match = re.search(regex, abil_text, re.MULTILINE)
+        result = match.group(1)
+        return result
+
+    return F
+
+
 # Index
-def parse_internal_name(abil_text):
-    id_match = re.search(r"^\[([A-Z]+)\]", abil_text, re.MULTILINE)
-    id = id_match.group(1)
-    return id
+parse_internal_name = parse_basic_string(r"^\[([A-Z]+)\]")
 
 
 # Name
-def parse_ability_name(abil_text):
-    name_match = re.search(r"^Name = (.+)", abil_text, re.MULTILINE)
-    name = name_match.group(1)
-    return name
+parse_ability_name = parse_basic_string(r"^Name = (.+)")
 
 
 # Description
-def parse_description(abil_text):
-    desc_match = re.search(r"^Description = (.+)", abil_text, re.MULTILINE)
-    desc = desc_match.group(1)
-    return desc
+parse_description = parse_basic_string(r"^Description = (.+)")
 
 
 # Flags
@@ -32,15 +32,20 @@ def parse_flags(abil_text):
         return flags
 
 
+parsers = {
+    "Name": parse_ability_name,
+    "Description": parse_description,
+    "Flags": parse_flags,
+}
+
+
 def parse_ability(abil_text):
     id = parse_internal_name(abil_text)
-    data = {
-        "Name": parse_ability_name(abil_text),
-        "Description": parse_description(abil_text),
-    }
-    flags = parse_flags(abil_text)
-    if flags:
-        data["Flags"] = flags
+    data = {"InternalName": id}
+    for key, parser in parsers.items():
+        result = parser(abil_text)
+        if result:
+            data[key] = result
     return (id, data)
 
 

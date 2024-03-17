@@ -2,26 +2,33 @@ import json
 import re
 
 
+def parse_basic_string(regex):
+    def F(mon_text):
+        match = re.search(regex, mon_text, re.MULTILINE)
+        result = match.group(1)
+        return result
+
+    return F
+
+
+def parse_number(regex):
+    def F(mon_text):
+        num_match = re.search(regex, mon_text, re.MULTILINE)
+        num_raw = num_match.group(1)
+        num = int(num_raw)
+        return num
+
+
 # Index
-def parse_pokedex_number(mon_text):
-    num_match = re.search(r"^\[(\d+)\]", mon_text, re.MULTILINE)
-    num_raw = num_match.group(1)
-    num = int(num_raw)
-    return num
+parse_pokedex_number = parse_number(r"^\[(\d+)\]")
 
 
 # Name
-def parse_pokemon_name(mon_text):
-    name_match = re.search(r"^Name = (.+)", mon_text, re.MULTILINE)
-    name = name_match.group(1)
-    return name
+parse_pokemon_name = parse_basic_string(r"^Name = (.+)")
 
 
 # InternalName
-def parse_internal_name(mon_text):
-    id_match = re.search(r"^InternalName = (.+)", mon_text, re.MULTILINE)
-    id = id_match.group(1)
-    return id
+parse_internal_name = parse_basic_string(r"^InternalName = (.+)")
 
 
 # Type1
@@ -99,27 +106,15 @@ def parse_growth_rate(mon_text):
 
 
 # BaseEXP
-def parse_base_exp(mon_text):
-    exp_match = re.search(r"^BaseEXP = (.+)", mon_text, re.MULTILINE)
-    exp_raw = exp_match.group(1)
-    exp = int(exp_raw)
-    return exp
+parse_base_exp = parse_number(r"^BaseEXP = (.+)")
 
 
 # Rareness
-def parse_catch_rate(mon_text):
-    rate_match = re.search(r"^Rareness = (.+)", mon_text, re.MULTILINE)
-    rate_raw = rate_match.group(1)
-    rate = int(rate_raw)
-    return rate
+parse_catch_rate = parse_number(r"^Rareness = (.+)")
 
 
 # Happiness
-def parse_base_happiness(mon_text):
-    happiness_match = re.search(r"^Happiness = (.+)", mon_text, re.MULTILINE)
-    happiness_raw = happiness_match.group(1)
-    happiness = int(happiness_raw)
-    return happiness
+parse_base_happiness = parse_number(r"^Happiness = (.+)")
 
 
 # Abilities
@@ -132,7 +127,7 @@ def parse_abilities(mon_text):
     abils_raw = abils_match.group(1)
     abils_list = abils_raw.split(",")
     abils = [abilities[abil] for abil in abils_list]
-    # TODO: Determine if abilitiy is signature
+    # TODO: Determine if ability is signature
     return abils
 
 
