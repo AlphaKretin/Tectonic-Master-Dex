@@ -20,6 +20,8 @@ def parse_number(regex):
             num = int(num_raw)
             return num
 
+    return F
+
 
 # Index
 parse_pokedex_number = parse_number(r"^\[(\d+)\]")
