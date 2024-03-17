@@ -12,6 +12,17 @@ def parse_basic_string(regex):
     return F
 
 
+def parse_mapped_string(regex, map):
+    def F(mon_text):
+        match = re.search(regex, mon_text, re.MULTILINE)
+        if match:
+            result = match.group(1)
+            mapped_result = map[result]
+            return mapped_result
+
+    return F
+
+
 def parse_number(regex):
     def F(mon_text):
         num_match = re.search(regex, mon_text, re.MULTILINE)
@@ -40,14 +51,15 @@ parse_internal_name = parse_basic_string(r"^InternalName = (.+)")
 def parse_types(mon_text):
     types = []
     type1_match = re.search(r"^Type1 = (.+)", mon_text, re.MULTILINE)
-    type1 = type1_match.group(1).title()
+    if type1_match:
+        type1 = type1_match.group(1).title()
 
-    types.append(type1)
+        types.append(type1)
 
-    type2_match = re.search(r"^Type2 = (.+)", mon_text, re.MULTILINE)
-    if type2_match:
-        type2 = type2_match.group(1).title()
-        types.append(type2)
+        type2_match = re.search(r"^Type2 = (.+)", mon_text, re.MULTILINE)
+        if type2_match:
+            type2 = type2_match.group(1).title()
+            types.append(type2)
 
     return types
 
@@ -55,18 +67,19 @@ def parse_types(mon_text):
 # BaseStats
 def parse_base_stats(mon_text):
     stats_match = re.search(r"^BaseStats = (.+)", mon_text, re.MULTILINE)
-    stats_row = stats_match.group(1)
-    stats_nums = [int(stat) for stat in stats_row.split(",")]
-    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    stats = {
-        "hp": stats_nums[0],
-        "attack": stats_nums[1],
-        "defense": stats_nums[2],
-        "speed": stats_nums[3],
-        "sp_atk": stats_nums[4],
-        "sp_def": stats_nums[5],
-    }
-    return stats
+    if stats_match:
+        stats_row = stats_match.group(1)
+        stats_nums = [int(stat) for stat in stats_row.split(",")]
+        # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+        stats = {
+            "hp": stats_nums[0],
+            "attack": stats_nums[1],
+            "defense": stats_nums[2],
+            "speed": stats_nums[3],
+            "sp_atk": stats_nums[4],
+            "sp_def": stats_nums[5],
+        }
+        return stats
 
 
 # GenderRate
@@ -82,13 +95,7 @@ gender_rate_map = {
     "Genderless": "None",
 }
 
-
-def parse_gender_rate(mon_text):
-    rate_match = re.search(r"^GenderRate = (.+)", mon_text, re.MULTILINE)
-    rate_raw = rate_match.group(1)
-    rate = gender_rate_map[rate_raw]
-    return rate
-
+parse_gender_rate = parse_mapped_string(r"^GenderRate = (.+)", gender_rate_map)
 
 # GrowthRate
 # Some names are abbreviated in-game, their full canon names are used here
@@ -101,13 +108,7 @@ growth_rate_map = {
     "Slow": "Slow",
 }
 
-
-def parse_growth_rate(mon_text):
-    rate_match = re.search(r"^GrowthRate = (.+)", mon_text, re.MULTILINE)
-    rate_raw = rate_match.group(1)
-    rate = growth_rate_map[rate_raw]
-    return rate
-
+parse_growth_rate = parse_mapped_string(r"^GrowthRate = (.+)", growth_rate_map)
 
 # BaseEXP
 parse_base_exp = parse_number(r"^BaseEXP = (.+)")
@@ -128,11 +129,12 @@ with open("../data/abilities.json", "r", encoding="utf8") as infile:
 
 def parse_abilities(mon_text):
     abils_match = re.search(r"^Abilities = (.+)", mon_text, re.MULTILINE)
-    abils_raw = abils_match.group(1)
-    abils_list = abils_raw.split(",")
-    abils = [abilities[abil] for abil in abils_list]
-    # TODO: Determine if ability is signature
-    return abils
+    if abils_match:
+        abils_raw = abils_match.group(1)
+        abils_list = abils_raw.split(",")
+        abils = [abilities[abil] for abil in abils_list]
+        # TODO: Determine if ability is signature
+        return abils
 
 
 # Moves
