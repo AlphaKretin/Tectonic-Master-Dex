@@ -148,11 +148,6 @@ def parse_abilities(mon_text):
         return abils
 
 
-# Moves
-with open("../data/moves.json", "r", encoding="utf8") as infile:
-    moves = json.loads(infile.read())
-
-
 # from https://stackoverflow.com/a/312464
 def chunks(lst, n):
     a = []
@@ -167,9 +162,8 @@ def parse_level_moves(mon_text):
         moves_raw = moves_match.group(1)
         moves_list = moves_raw.split(",")
         move_pairs = chunks(moves_list, 2)
-        move_tuples = [
-            (int(level), moves[move]["Name"]) for [level, move] in move_pairs
-        ]
+        # use the moves' internal names so full data can be fetched later in the pipeline
+        move_tuples = [(int(level), move) for [level, move] in move_pairs]
         return move_tuples
 
 
@@ -180,8 +174,7 @@ def parse_moves_list(regex):
         if moves_match:
             moves_raw = moves_match.group(1)
             moves_list = moves_raw.split(",")
-            moves_final = [moves[move]["Name"] for move in moves_list]
-            return moves_final
+            return moves_list
 
     return F
 
