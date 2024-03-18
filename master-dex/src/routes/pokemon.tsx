@@ -49,6 +49,27 @@ interface Pokemon {
   Prevolutions?: Evolution[];
 }
 
+function AbilityRender(currentMon: Pokemon) {
+  if (currentMon.Abilities.length > 1) {
+    return (
+      <div>
+        <h3>{currentMon.Abilities[0].Name}</h3>
+        <p>{currentMon.Abilities[0].Description}</p>
+
+        <h3>{currentMon.Abilities[1].Name}</h3>
+        <p>{currentMon.Abilities[1].Description}</p>
+      </div>
+    );
+  } else {
+    return (
+      <div>
+        <h3>{currentMon.Abilities[0].Name}</h3>
+        <p>{currentMon.Abilities[0].Description}</p>
+      </div>
+    );
+  }
+}
+
 export default function Pokemon() {
   const pokemon: Record<string, Pokemon> = pokemonJson;
   const params = useParams();
@@ -56,8 +77,24 @@ export default function Pokemon() {
 
   return (
     <div id="contact">
-      <div>
+      <div id="heading">
         <h1>{currentMon.Name}</h1>
+        <i>{currentMon.Kind} Pokémon</i>
+      </div>
+      <div id="basics">
+        <ul>
+          <li>{currentMon.Types.join(", ")}</li>
+          <li>Height: {currentMon.Height.toFixed(1)} m</li>
+          <li>Weight: {currentMon.Weight.toFixed(1)} kg</li>
+        </ul>
+      </div>
+
+      <div id="entry">
+        <p>{currentMon.Pokedex}</p>
+      </div>
+      <div id="abilities">
+        <h2>Abilities</h2>
+        {AbilityRender(currentMon)}
       </div>
     </div>
   );
