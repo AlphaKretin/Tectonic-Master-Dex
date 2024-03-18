@@ -351,6 +351,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Stampede"
         ]
     },
     "VENUSAUR": {
@@ -496,6 +500,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Stampede"
         ]
     },
     "CHARMANDER": {
@@ -842,6 +850,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Loyal"
         ]
     },
     "CHARIZARD": {
@@ -981,6 +993,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Loyal"
         ]
     },
     "SQUIRTLE": {
@@ -1299,6 +1315,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Artillery",
+            "Tyrannical"
         ]
     },
     "BLASTOISE": {
@@ -1427,6 +1447,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Artillery",
+            "Tyrannical"
         ]
     },
     "CATERPIE": {
@@ -1575,6 +1599,10 @@
                 "Method": "Level",
                 "Condition": "10"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Serene"
         ]
     },
     "BUTTERFREE": {
@@ -1779,6 +1807,10 @@
                 "Method": "Level",
                 "Condition": "15"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Serene"
         ]
     },
     "WEEDLE": {
@@ -1924,6 +1956,10 @@
                 "Method": "Level",
                 "Condition": "10"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Assassin"
         ]
     },
     "BEEDRILL": {
@@ -2122,6 +2158,10 @@
                 "Method": "Level",
                 "Condition": "15"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Assassin"
         ]
     },
     "PIDGEY": {
@@ -2426,6 +2466,10 @@
                 "Method": "Level",
                 "Condition": "18"
             }
+        ],
+        "Tribes": [
+            "Noble",
+            "Scrapper"
         ]
     },
     "PIDGEOT": {
@@ -2550,6 +2594,10 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Noble",
+            "Scrapper"
         ]
     },
     "RATTATA": {
@@ -2862,6 +2910,10 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Scavenger",
+            "Scrapper"
         ]
     },
     "SPEAROW": {
@@ -3175,6 +3227,10 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Tyrannical"
         ]
     },
     "EKANS": {
@@ -3558,6 +3614,10 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Deceiver"
         ]
     },
     "PIKACHU": {
@@ -3671,6 +3731,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Loyal"
         ]
     },
     "RAICHU": {
@@ -3795,6 +3859,10 @@
                 "Method": "Item",
                 "Condition": "THUNDERSTONE"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Loyal"
         ]
     },
     "SANDSHREW": {
@@ -4126,6 +4194,10 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Assassin"
         ]
     },
     "NIDORANfE": {
@@ -4458,6 +4530,10 @@
                 "Method": "Level",
                 "Condition": "21"
             }
+        ],
+        "Tribes": [
+            "Caretaker",
+            "Noble"
         ]
     },
     "NIDOQUEEN": {
@@ -4575,6 +4651,10 @@
                 "Method": "Item",
                 "Condition": "MOONSTONE"
             }
+        ],
+        "Tribes": [
+            "Caretaker",
+            "Noble"
         ]
     },
     "NIDORANmA": {
@@ -4933,6 +5013,10 @@
                 "Method": "Level",
                 "Condition": "21"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Noble"
         ]
     },
     "NIDOKING": {
@@ -5058,6 +5142,10 @@
                 "Method": "Item",
                 "Condition": "MOONSTONE"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Noble"
         ]
     },
     "CLEFAIRY": {
@@ -5216,6 +5304,10 @@
                 "Method": "Level",
                 "Condition": "22"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Charmer"
         ]
     },
     "CLEFABLE": {
@@ -5363,6 +5455,10 @@
                 "Method": "Level",
                 "Condition": "45"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Charmer"
         ]
     },
     "VULPIX": {
@@ -5690,6 +5786,11 @@
                 "Method": "Item",
                 "Condition": "FIRESTONE"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Noble",
+            "Mystic"
         ]
     },
     "JIGGLYPUFF": {
@@ -5846,6 +5947,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Harmonic",
+            "Charmer"
         ]
     },
     "WIGGLYTUFF": {
@@ -5999,6 +6104,10 @@
                 "Method": "Item",
                 "Condition": "MOONSTONE"
             }
+        ],
+        "Tribes": [
+            "Harmonic",
+            "Charmer"
         ]
     },
     "ZUBAT": {
@@ -6328,6 +6437,11 @@
                 "Method": "Level",
                 "Condition": "22"
             }
+        ],
+        "Tribes": [
+            "Tactician",
+            "Assassin",
+            "Harmonic"
         ]
     },
     "ODDISH": {
@@ -6605,6 +6719,9 @@
                 "Method": "Level",
                 "Condition": "21"
             }
+        ],
+        "Tribes": [
+            "Deceiver"
         ]
     },
     "VILEPLUME": {
@@ -7046,6 +7163,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Scavenger"
         ]
     },
     "VENONAT": {
@@ -7348,6 +7469,10 @@
                 "Method": "Level",
                 "Condition": "31"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Assassin"
         ]
     },
     "DIGLETT": {
@@ -8023,6 +8148,11 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Fortune",
+            "Charmer",
+            "Noble"
         ]
     },
     "PSYDUCK": {
@@ -8353,6 +8483,10 @@
                 "Method": "Level",
                 "Condition": "33"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Radiant"
         ]
     },
     "MANKEY": {
@@ -8693,6 +8827,10 @@
                 "Method": "Level",
                 "Condition": "22"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Stampede"
         ]
     },
     "GROWLITHE": {
@@ -9014,6 +9152,10 @@
                 "Method": "Item",
                 "Condition": "FIRESTONE"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Noble"
         ]
     },
     "POLIWAG": {
@@ -9361,6 +9503,9 @@
                 "Method": "Level",
                 "Condition": "25"
             }
+        ],
+        "Tribes": [
+            "Mystic"
         ]
     },
     "POLIWRATH": {
@@ -9853,6 +9998,11 @@
                 "Method": "Level",
                 "Condition": "20"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Industrious",
+            "Tactician"
         ]
     },
     "ALAKAZAM": {
@@ -9981,6 +10131,11 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Industrious",
+            "Tactician"
         ]
     },
     "MACHOP": {
@@ -10303,6 +10458,10 @@
                 "Method": "Level",
                 "Condition": "20"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Scrapper"
         ]
     },
     "MACHAMP": {
@@ -10419,6 +10578,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Scrapper"
         ]
     },
     "BELLSPROUT": {
@@ -10738,6 +10901,10 @@
                 "Method": "Level",
                 "Condition": "22"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Deceiver"
         ]
     },
     "VICTREEBEL": {
@@ -10863,6 +11030,10 @@
                 "Method": "Item",
                 "Condition": "LEAFSTONE"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Deceiver"
         ]
     },
     "TENTACOOL": {
@@ -11224,6 +11395,10 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Bushwhacker"
         ]
     },
     "GEODUDE": {
@@ -11545,6 +11720,11 @@
                 "Method": "Level",
                 "Condition": "20"
             }
+        ],
+        "Tribes": [
+            "Deceiver",
+            "Animated",
+            "Artillery"
         ]
     },
     "GOLEM": {
@@ -11674,6 +11854,11 @@
                 "Method": "Level",
                 "Condition": "35"
             }
+        ],
+        "Tribes": [
+            "Deceiver",
+            "Animated",
+            "Artillery"
         ]
     },
     "PONYTA": {
@@ -11994,6 +12179,10 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Stampede",
+            "Loyal"
         ]
     },
     "SLOWPOKE": {
@@ -13177,6 +13366,11 @@
                 "Method": "Level",
                 "Condition": "31"
             }
+        ],
+        "Tribes": [
+            "Tactician",
+            "Stampede",
+            "Harmonic"
         ]
     },
     "SEEL": {
@@ -13508,6 +13702,10 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Deceiver",
+            "Serene"
         ]
     },
     "GRIMER": {
@@ -13836,6 +14034,10 @@
                 "Method": "Level",
                 "Condition": "33"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Scavenger"
         ]
     },
     "SHELLDER": {
@@ -14149,6 +14351,10 @@
                 "Method": "Item",
                 "Condition": "ICESTONE"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Artillery"
         ]
     },
     "GASTLY": {
@@ -14491,6 +14697,9 @@
                 "Method": "Level",
                 "Condition": "25"
             }
+        ],
+        "Tribes": [
+            "Scourge"
         ]
     },
     "GENGAR": {
@@ -14608,6 +14817,9 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Scourge"
         ]
     },
     "ONIX": {
@@ -15123,6 +15335,10 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Charmer"
         ]
     },
     "KRABBY": {
@@ -15445,6 +15661,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Noble",
+            "Tyrannical"
         ]
     },
     "VOLTORB": {
@@ -15790,6 +16010,11 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Assassin",
+            "Artillery"
         ]
     },
     "EXEGGCUTE": {
@@ -16144,6 +16369,10 @@
                 "Method": "Item",
                 "Condition": "LEAFSTONE"
             }
+        ],
+        "Tribes": [
+            "Tactician",
+            "Animated"
         ]
     },
     "CUBONE": {
@@ -16668,6 +16897,9 @@
                 "Method": "AttackGreater",
                 "Condition": "28"
             }
+        ],
+        "Tribes": [
+            "Scrapper"
         ]
     },
     "HITMONCHAN": {
@@ -16825,6 +17057,9 @@
                 "Method": "DefenseGreater",
                 "Condition": "28"
             }
+        ],
+        "Tribes": [
+            "Scrapper"
         ]
     },
     "LICKITUNG": {
@@ -17790,6 +18025,9 @@
                 "Method": "Level",
                 "Condition": "28"
             }
+        ],
+        "Tribes": [
+            "Stampede"
         ]
     },
     "CHANSEY": {
@@ -17913,6 +18151,11 @@
                 "Method": "Level",
                 "Condition": "20"
             }
+        ],
+        "Tribes": [
+            "Caretaker",
+            "Serene",
+            "Harmonic"
         ]
     },
     "TANGELA": {
@@ -18620,6 +18863,11 @@
                 "Method": "Level",
                 "Condition": "25"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Noble",
+            "Artillery"
         ]
     },
     "GOLDEEN": {
@@ -18927,6 +19175,10 @@
                 "Method": "Level",
                 "Condition": "33"
             }
+        ],
+        "Tribes": [
+            "Noble",
+            "Charmer"
         ]
     },
     "STARYU": {
@@ -19259,6 +19511,10 @@
                 "Method": "Level",
                 "Condition": "37"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Assassin"
         ]
     },
     "MRMIME": {
@@ -19390,6 +19646,10 @@
                 "Method": "Level",
                 "Condition": "37"
             }
+        ],
+        "Tribes": [
+            "Charmer",
+            "Mystic"
         ]
     },
     "SCYTHER": {
@@ -19682,6 +19942,10 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Charmer",
+            "Harmonic"
         ]
     },
     "ELECTABUZZ": {
@@ -19806,6 +20070,10 @@
                 "Method": "Level",
                 "Condition": "22"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Radiant"
         ]
     },
     "MAGMAR": {
@@ -19930,6 +20198,10 @@
                 "Method": "Level",
                 "Condition": "22"
             }
+        ],
+        "Tribes": [
+            "Artillery",
+            "Industrious"
         ]
     },
     "PINSIR": {
@@ -22165,6 +22437,9 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Noble"
         ]
     },
     "KABUTO": {
@@ -22498,6 +22773,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Bushwhacker"
         ]
     },
     "AERODACTYL": {
@@ -22843,6 +23122,10 @@
                 "Method": "Level",
                 "Condition": "38"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Scavenger"
         ]
     },
     "ARTICUNO": {
@@ -23688,6 +23971,10 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Caretaker",
+            "Mystic"
         ]
     },
     "DRAGONITE": {
@@ -23854,6 +24141,10 @@
                 "Method": "Level",
                 "Condition": "47"
             }
+        ],
+        "Tribes": [
+            "Caretaker",
+            "Mystic"
         ]
     },
     "MEWTWO": {
@@ -25000,6 +25291,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Caretaker"
         ]
     },
     "MEGANIUM": {
@@ -25131,6 +25426,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Caretaker"
         ]
     },
     "CYNDAQUIL": {
@@ -25390,6 +25689,9 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Radiant"
         ]
     },
     "TYPHLOSION": {
@@ -25857,6 +26159,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Bushwhacker"
         ]
     },
     "FERALIGATR": {
@@ -25981,6 +26287,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Bushwhacker"
         ]
     },
     "SENTRET": {
@@ -26314,6 +26624,10 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Serene"
         ]
     },
     "HOOTHOOT": {
@@ -26661,6 +26975,10 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Mystic"
         ]
     },
     "LEDYBA": {
@@ -27270,6 +27588,10 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Deceiver",
+            "Bushwhacker"
         ]
     },
     "CROBAT": {
@@ -27398,6 +27720,11 @@
                 "Method": "Item",
                 "Condition": "DUSKSTONE"
             }
+        ],
+        "Tribes": [
+            "Tactician",
+            "Assassin",
+            "Harmonic"
         ]
     },
     "CHINCHOU": {
@@ -27716,6 +28043,10 @@
                 "Method": "Level",
                 "Condition": "25"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Bushwhacker"
         ]
     },
     "PICHU": {
@@ -28775,6 +29106,10 @@
                 "Method": "Level",
                 "Condition": "18"
             }
+        ],
+        "Tribes": [
+            "Caretaker",
+            "Fortune"
         ]
     },
     "NATU": {
@@ -29116,6 +29451,10 @@
                 "Method": "Level",
                 "Condition": "27"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Fortune"
         ]
     },
     "MAREEP": {
@@ -29441,6 +29780,10 @@
                 "Method": "Level",
                 "Condition": "18"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Caretaker"
         ]
     },
     "AMPHAROS": {
@@ -29570,6 +29913,10 @@
                 "Method": "Level",
                 "Condition": "39"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Caretaker"
         ]
     },
     "BELLOSSOM": {
@@ -29842,6 +30189,9 @@
                 "Method": "Level",
                 "Condition": "23"
             }
+        ],
+        "Tribes": [
+            "Caretaker"
         ]
     },
     "AZUMARILL": {
@@ -30087,6 +30437,10 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Deceiver"
         ]
     },
     "POLITOED": {
@@ -30538,6 +30892,10 @@
                 "Method": "Level",
                 "Condition": "18"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Charmer"
         ]
     },
     "JUMPLUFF": {
@@ -30655,6 +31013,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Charmer"
         ]
     },
     "AIPOM": {
@@ -31171,6 +31533,11 @@
                 "Method": "Item",
                 "Condition": "SUNSTONE"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Loyal",
+            "Scavenger"
         ]
     },
     "YANMA": {
@@ -32751,6 +33118,10 @@
                 "Method": "Level",
                 "Condition": "25"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Bushwhacker"
         ]
     },
     "GIRAFARIG": {
@@ -33330,6 +33701,10 @@
                 "Method": "Level",
                 "Condition": "29"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Artillery"
         ]
     },
     "DUNSPARCE": {
@@ -34257,6 +34632,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Scrapper"
         ]
     },
     "QWILFISH": {
@@ -34611,6 +34990,10 @@
                 "Method": "Level",
                 "Condition": "29"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Assassin"
         ]
     },
     "SHUCKLE": {
@@ -35893,6 +36276,9 @@
                 "Method": "Level",
                 "Condition": "38"
             }
+        ],
+        "Tribes": [
+            "Animated"
         ]
     },
     "SWINUB": {
@@ -36203,6 +36589,10 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Stampede",
+            "Industrious"
         ]
     },
     "CORSOLA": {
@@ -36734,6 +37124,10 @@
                 "Method": "Level",
                 "Condition": "27"
             }
+        ],
+        "Tribes": [
+            "Artillery",
+            "Bushwhacker"
         ]
     },
     "DELIBIRD": {
@@ -37070,6 +37464,10 @@
                 "Method": "Item",
                 "Condition": "WATERSTONE"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Caretaker"
         ]
     },
     "SKARMORY": {
@@ -37611,6 +38009,10 @@
                 "Method": "Level",
                 "Condition": "27"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Loyal"
         ]
     },
     "KINGDRA": {
@@ -37737,6 +38139,11 @@
                 "Method": "Level",
                 "Condition": "42"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Noble",
+            "Artillery"
         ]
     },
     "PHANPY": {
@@ -38046,6 +38453,9 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Stampede"
         ]
     },
     "PORYGON2": {
@@ -38189,6 +38599,11 @@
                 "Method": "Level",
                 "Condition": "24"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Mystic",
+            "Animated"
         ]
     },
     "STANTLER": {
@@ -38752,6 +39167,9 @@
                 "Method": "AtkDefEqual",
                 "Condition": "28"
             }
+        ],
+        "Tribes": [
+            "Scrapper"
         ]
     },
     "SMOOCHUM": {
@@ -39714,6 +40132,11 @@
                 "Method": "Level",
                 "Condition": "45"
             }
+        ],
+        "Tribes": [
+            "Caretaker",
+            "Serene",
+            "Harmonic"
         ]
     },
     "RAIKOU": {
@@ -40572,6 +40995,10 @@
                 "Method": "Level",
                 "Condition": "22"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Scourge"
         ]
     },
     "TYRANITAR": {
@@ -40692,6 +41119,10 @@
                 "Method": "Level",
                 "Condition": "47"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Scourge"
         ]
     },
     "LUGIA": {
@@ -41653,6 +42084,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Assassin",
+            "Serene"
         ]
     },
     "SCEPTILE": {
@@ -41790,6 +42225,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Assassin",
+            "Serene"
         ]
     },
     "TORCHIC": {
@@ -42143,6 +42582,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Warrior"
         ]
     },
     "BLAZIKEN": {
@@ -42272,6 +42715,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Warrior"
         ]
     },
     "MUDKIP": {
@@ -42604,6 +43051,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Tactician"
         ]
     },
     "SWAMPERT": {
@@ -42732,6 +43183,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Tactician"
         ]
     },
     "POOCHYENA": {
@@ -43052,6 +43507,10 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Tactician"
         ]
     },
     "ZIGZAGOON": {
@@ -43559,6 +44018,9 @@
                 "Method": "Ability0",
                 "Condition": "18"
             }
+        ],
+        "Tribes": [
+            "Industrious"
         ]
     },
     "BEAUTIFLY": {
@@ -43866,6 +44328,9 @@
                 "Method": "Ability1",
                 "Condition": "18"
             }
+        ],
+        "Tribes": [
+            "Industrious"
         ]
     },
     "DUSTOX": {
@@ -44414,6 +44879,11 @@
                 "Method": "Level",
                 "Condition": "24"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Caretaker",
+            "Harmonic"
         ]
     },
     "LUDICOLO": {
@@ -44539,6 +45009,11 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Caretaker",
+            "Harmonic"
         ]
     },
     "SEEDOT": {
@@ -44907,6 +45382,10 @@
                 "Method": "Level",
                 "Condition": "18"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Scourge"
         ]
     },
     "SHIFTRY": {
@@ -45037,6 +45516,10 @@
                 "Method": "Item",
                 "Condition": "LEAFSTONE"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Scourge"
         ]
     },
     "TAILLOW": {
@@ -45327,6 +45810,10 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Warrior"
         ]
     },
     "WINGULL": {
@@ -45984,6 +46471,10 @@
                 "Method": "Level",
                 "Condition": "24"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Harmonic"
         ]
     },
     "GARDEVOIR": {
@@ -46434,6 +46925,10 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Deceiver",
+            "Radiant"
         ]
     },
     "SHROOMISH": {
@@ -46758,6 +47253,10 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Scavenger",
+            "Scrapper"
         ]
     },
     "SLAKOTH": {
@@ -47070,6 +47569,10 @@
                 "Method": "Level",
                 "Condition": "18"
             }
+        ],
+        "Tribes": [
+            "Noble",
+            "Serene"
         ]
     },
     "SLAKING": {
@@ -47189,6 +47692,10 @@
                 "Method": "Level",
                 "Condition": "40"
             }
+        ],
+        "Tribes": [
+            "Noble",
+            "Serene"
         ]
     },
     "NINCADA": {
@@ -47986,6 +48493,10 @@
                 "Method": "Level",
                 "Condition": "20"
             }
+        ],
+        "Tribes": [
+            "Harmonic",
+            "Scourge"
         ]
     },
     "EXPLOUD": {
@@ -48110,6 +48621,10 @@
                 "Method": "Level",
                 "Condition": "40"
             }
+        ],
+        "Tribes": [
+            "Harmonic",
+            "Scourge"
         ]
     },
     "MAKUHITA": {
@@ -48428,6 +48943,10 @@
                 "Method": "Level",
                 "Condition": "39"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Scrapper"
         ]
     },
     "AZURILL": {
@@ -49211,6 +49730,10 @@
                 "Method": "Item",
                 "Condition": "MOONSTONE"
             }
+        ],
+        "Tribes": [
+            "Charmer",
+            "Noble"
         ]
     },
     "SABLEYE": {
@@ -50016,6 +50539,10 @@
                 "Method": "Level",
                 "Condition": "24"
             }
+        ],
+        "Tribes": [
+            "Stampede",
+            "Tyrannical"
         ]
     },
     "AGGRON": {
@@ -50142,6 +50669,10 @@
                 "Method": "Level",
                 "Condition": "42"
             }
+        ],
+        "Tribes": [
+            "Stampede",
+            "Tyrannical"
         ]
     },
     "MEDITITE": {
@@ -50509,6 +51040,10 @@
                 "Method": "Level",
                 "Condition": "28"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Serene"
         ]
     },
     "ELECTRIKE": {
@@ -50808,6 +51343,10 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Artillery"
         ]
     },
     "PLUSLE": {
@@ -51619,6 +52158,10 @@
                 "Method": "Level",
                 "Condition": "17"
             }
+        ],
+        "Tribes": [
+            "Noble",
+            "Warrior"
         ]
     },
     "GULPIN": {
@@ -51944,6 +52487,10 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Scavenger",
+            "Scourge"
         ]
     },
     "CARVANHA": {
@@ -52264,6 +52811,10 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Scrapper"
         ]
     },
     "WAILMER": {
@@ -52588,6 +53139,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Tyrannical"
         ]
     },
     "NUMEL": {
@@ -52904,6 +53459,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Artillery",
+            "Stampede"
         ]
     },
     "TORKOAL": {
@@ -53417,6 +53976,10 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Charmer"
         ]
     },
     "SPINDA": {
@@ -53946,6 +54509,9 @@
                 "Method": "Level",
                 "Condition": "25"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker"
         ]
     },
     "FLYGON": {
@@ -54431,6 +54997,10 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Warrior"
         ]
     },
     "SWABLU": {
@@ -54821,6 +55391,10 @@
                 "Method": "Level",
                 "Condition": "28"
             }
+        ],
+        "Tribes": [
+            "Harmonic",
+            "Caretaker"
         ]
     },
     "ZANGOOSE": {
@@ -55929,6 +56503,10 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Scavenger",
+            "Tyrannical"
         ]
     },
     "CORPHISH": {
@@ -56256,6 +56834,10 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Scavenger"
         ]
     },
     "BALTOY": {
@@ -56593,6 +57175,10 @@
                 "Method": "Level",
                 "Condition": "33"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Mystic"
         ]
     },
     "LILEEP": {
@@ -56909,6 +57495,10 @@
                 "Method": "Level",
                 "Condition": "40"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Bushwhacker"
         ]
     },
     "ANORITH": {
@@ -57232,6 +57822,10 @@
                 "Method": "Level",
                 "Condition": "40"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Warrior"
         ]
     },
     "FEEBAS": {
@@ -58855,6 +59449,9 @@
                 "Method": "Level",
                 "Condition": "27"
             }
+        ],
+        "Tribes": [
+            "Scourge"
         ]
     },
     "TROPIUS": {
@@ -59180,6 +59777,10 @@
                 "Method": "Level",
                 "Condition": "28"
             }
+        ],
+        "Tribes": [
+            "Harmonic",
+            "Serene"
         ]
     },
     "ABSOL": {
@@ -60210,6 +60811,10 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Noble"
         ]
     },
     "WALREIN": {
@@ -60342,6 +60947,10 @@
                 "Method": "Level",
                 "Condition": "44"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Noble"
         ]
     },
     "CLAMPERL": {
@@ -60641,6 +61250,10 @@
                 "Method": "Item",
                 "Condition": "DUSKSTONE"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Scourge"
         ]
     },
     "GOREBYSS": {
@@ -60778,6 +61391,10 @@
                 "Method": "Item",
                 "Condition": "DAWNSTONE"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Scourge"
         ]
     },
     "RELICANTH": {
@@ -61466,6 +62083,10 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Scrapper"
         ]
     },
     "SALAMENCE": {
@@ -61623,6 +62244,10 @@
                 "Method": "Level",
                 "Condition": "50"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Scrapper"
         ]
     },
     "BELDUM": {
@@ -61948,6 +62573,10 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Tactician"
         ]
     },
     "METAGROSS": {
@@ -62074,6 +62703,10 @@
                 "Method": "Level",
                 "Condition": "45"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Tactician"
         ]
     },
     "REGIROCK": {
@@ -64121,6 +64754,11 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Stampede",
+            "Caretaker"
         ]
     },
     "TORTERRA": {
@@ -64246,6 +64884,11 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Stampede",
+            "Caretaker"
         ]
     },
     "CHIMCHAR": {
@@ -64634,6 +65277,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Warrior"
         ]
     },
     "INFERNAPE": {
@@ -64782,6 +65429,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Warrior"
         ]
     },
     "PIPLUP": {
@@ -65177,6 +65828,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Noble",
+            "Tactician"
         ]
     },
     "EMPOLEON": {
@@ -65326,6 +65981,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Noble",
+            "Tactician"
         ]
     },
     "STARLY": {
@@ -65617,6 +66276,10 @@
                 "Method": "Level",
                 "Condition": "24"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Warrior"
         ]
     },
     "STARAPTOR": {
@@ -65741,6 +66404,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Warrior"
         ]
     },
     "BIDOOF": {
@@ -66128,6 +66795,10 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Industrious"
         ]
     },
     "KRICKETOT": {
@@ -66417,6 +67088,9 @@
                 "Method": "Level",
                 "Condition": "31"
             }
+        ],
+        "Tribes": [
+            "Harmonic"
         ]
     },
     "SHINX": {
@@ -66735,6 +67409,10 @@
                 "Method": "Level",
                 "Condition": "22"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Noble"
         ]
     },
     "LUXRAY": {
@@ -66863,6 +67541,10 @@
                 "Method": "Item",
                 "Condition": "THUNDERSTONE"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Noble"
         ]
     },
     "BUDEW": {
@@ -67182,6 +67864,10 @@
                 "Method": "Item",
                 "Condition": "SHINYSTONE"
             }
+        ],
+        "Tribes": [
+            "Noble",
+            "Warrior"
         ]
     },
     "CRANIDOS": {
@@ -67505,6 +68191,10 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Stampede"
         ]
     },
     "SHIELDON": {
@@ -67818,6 +68508,11 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Stampede",
+            "Serene"
         ]
     },
     "BURMY": {
@@ -68136,6 +68831,10 @@
                 "Method": "Ability1",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Scavenger",
+            "Deceiver"
         ]
     },
     "MOTHIM": {
@@ -68318,6 +69017,10 @@
                 "Method": "Ability0",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Scavenger",
+            "Deceiver"
         ]
     },
     "COMBEE": {
@@ -69143,6 +69846,10 @@
                 "Method": "Item",
                 "Condition": "WATERSTONE"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Caretaker"
         ]
     },
     "CHERUBI": {
@@ -69462,6 +70169,11 @@
                 "Method": "Level",
                 "Condition": "25"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Radiant",
+            "Tactician"
         ]
     },
     "SHELLOS": {
@@ -69783,6 +70495,10 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Scavenger"
         ]
     },
     "AMBIPOM": {
@@ -69910,6 +70626,10 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Industrious"
         ]
     },
     "DRIFLOON": {
@@ -70257,6 +70977,11 @@
                 "Method": "Item",
                 "Condition": "FIRESTONE"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Deceiver",
+            "Scavenger"
         ]
     },
     "BUNEARY": {
@@ -70607,6 +71332,10 @@
                 "Method": "Level",
                 "Condition": "24"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Assassin"
         ]
     },
     "MISMAGIUS": {
@@ -70735,6 +71464,11 @@
                 "Method": "Item",
                 "Condition": "ICESTONE"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Mystic",
+            "Harmonic"
         ]
     },
     "HONCHKROW": {
@@ -70863,6 +71597,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Fortune",
+            "Warrior"
         ]
     },
     "GLAMEOW": {
@@ -71175,6 +71913,11 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Charmer",
+            "Noble",
+            "Bushwhacker"
         ]
     },
     "CHINGLING": {
@@ -71767,6 +72510,10 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Scavenger"
         ]
     },
     "BRONZOR": {
@@ -72179,6 +72926,11 @@
                 "Method": "Level",
                 "Condition": "33"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Mystic",
+            "Harmonic"
         ]
     },
     "BONSLY": {
@@ -73467,6 +74219,9 @@
                 "Method": "Level",
                 "Condition": "24"
             }
+        ],
+        "Tribes": [
+            "Tyrannical"
         ]
     },
     "GARCHOMP": {
@@ -73599,6 +74354,9 @@
                 "Method": "Level",
                 "Condition": "48"
             }
+        ],
+        "Tribes": [
+            "Tyrannical"
         ]
     },
     "MUNCHLAX": {
@@ -74149,6 +74907,11 @@
                 "Method": "Level",
                 "Condition": "25"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Warrior",
+            "Harmonic"
         ]
     },
     "HIPPOPOTAS": {
@@ -74472,6 +75235,10 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Stampede",
+            "Serene"
         ]
     },
     "SKORUPI": {
@@ -74822,6 +75589,10 @@
                 "Method": "Level",
                 "Condition": "40"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Tyrannical"
         ]
     },
     "CROAGUNK": {
@@ -75208,6 +75979,10 @@
                 "Method": "Level",
                 "Condition": "31"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Assassin"
         ]
     },
     "CARNIVINE": {
@@ -75685,6 +76460,10 @@
                 "Method": "Level",
                 "Condition": "31"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Harmonic"
         ]
     },
     "MANTYKE": {
@@ -76256,6 +77035,10 @@
                 "Method": "Level",
                 "Condition": "28"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Caretaker"
         ]
     },
     "WEAVILE": {
@@ -76388,6 +77171,10 @@
                 "Method": "Item",
                 "Condition": "ICESTONE"
             }
+        ],
+        "Tribes": [
+            "Assassin",
+            "Tactician"
         ]
     },
     "MAGNEZONE": {
@@ -76514,6 +77301,11 @@
                 "Method": "Level",
                 "Condition": "39"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Animated",
+            "Tactician"
         ]
     },
     "LICKILICKY": {
@@ -76663,6 +77455,10 @@
                 "Method": "Level",
                 "Condition": "40"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Stampede"
         ]
     },
     "RHYPERIOR": {
@@ -76919,6 +77715,9 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Animated"
         ]
     },
     "ELECTIVIRE": {
@@ -77044,6 +77843,10 @@
                 "Method": "Item",
                 "Condition": "THUNDERSTONE"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Radiant"
         ]
     },
     "MAGMORTAR": {
@@ -77169,6 +77972,10 @@
                 "Method": "Item",
                 "Condition": "FIRESTONE"
             }
+        ],
+        "Tribes": [
+            "Artillery",
+            "Industrious"
         ]
     },
     "TOGEKISS": {
@@ -77313,6 +78120,10 @@
                 "Method": "Item",
                 "Condition": "SHINYSTONE"
             }
+        ],
+        "Tribes": [
+            "Caretaker",
+            "Fortune"
         ]
     },
     "YANMEGA": {
@@ -77439,6 +78250,11 @@
                 "Method": "Level",
                 "Condition": "33"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Bushwhacker",
+            "Assassin"
         ]
     },
     "LEAFEON": {
@@ -77939,6 +78755,9 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker"
         ]
     },
     "MAMOSWINE": {
@@ -78067,6 +78886,10 @@
                 "Method": "Level",
                 "Condition": "43"
             }
+        ],
+        "Tribes": [
+            "Stampede",
+            "Industrious"
         ]
     },
     "PORYGONZ": {
@@ -78203,6 +79026,11 @@
                 "Method": "Item",
                 "Condition": "DUSKSTONE"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Mystic",
+            "Animated"
         ]
     },
     "GALLADE": {
@@ -78474,6 +79302,10 @@
                 "Method": "Item",
                 "Condition": "THUNDERSTONE"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Mystic"
         ]
     },
     "DUSKNOIR": {
@@ -81773,6 +82605,9 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Noble"
         ]
     },
     "SERPERIOR": {
@@ -81901,6 +82736,9 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Noble"
         ]
     },
     "TEPIG": {
@@ -82234,6 +83072,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Warrior"
         ]
     },
     "EMBOAR": {
@@ -82362,6 +83204,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Warrior"
         ]
     },
     "OSHAWOTT": {
@@ -82629,6 +83475,9 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Warrior"
         ]
     },
     "SAMUROTT": {
@@ -83103,6 +83952,9 @@
                 "Method": "Level",
                 "Condition": "27"
             }
+        ],
+        "Tribes": [
+            "Radiant"
         ]
     },
     "LILLIPUP": {
@@ -83406,6 +84258,10 @@
                 "Method": "Level",
                 "Condition": "20"
             }
+        ],
+        "Tribes": [
+            "Caretaker",
+            "Loyal"
         ]
     },
     "STOUTLAND": {
@@ -83522,6 +84378,10 @@
                 "Method": "Level",
                 "Condition": "45"
             }
+        ],
+        "Tribes": [
+            "Caretaker",
+            "Loyal"
         ]
     },
     "PURRLOIN": {
@@ -83922,6 +84782,11 @@
                 "Method": "Level",
                 "Condition": "28"
             }
+        ],
+        "Tribes": [
+            "Deceiver",
+            "Noble",
+            "Assassin"
         ]
     },
     "PANSAGE": {
@@ -84290,6 +85155,10 @@
                 "Method": "Level",
                 "Condition": "31"
             }
+        ],
+        "Tribes": [
+            "Tactician",
+            "Scavenger"
         ]
     },
     "PANSEAR": {
@@ -84659,6 +85528,10 @@
                 "Method": "Level",
                 "Condition": "31"
             }
+        ],
+        "Tribes": [
+            "Tactician",
+            "Scavenger"
         ]
     },
     "PANPOUR": {
@@ -85032,6 +85905,10 @@
                 "Method": "Level",
                 "Condition": "31"
             }
+        ],
+        "Tribes": [
+            "Tactician",
+            "Scavenger"
         ]
     },
     "MUNNA": {
@@ -85342,6 +86219,10 @@
                 "Method": "Item",
                 "Condition": "MOONSTONE"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Serene"
         ]
     },
     "PIDOVE": {
@@ -85667,6 +86548,10 @@
                 "Method": "Level",
                 "Condition": "21"
             }
+        ],
+        "Tribes": [
+            "Scavenger",
+            "Loyal"
         ]
     },
     "UNFEZANT": {
@@ -85800,6 +86685,10 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Scavenger",
+            "Loyal"
         ]
     },
     "BLITZLE": {
@@ -86090,6 +86979,10 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Stampede",
+            "Radiant"
         ]
     },
     "ROGGENROLA": {
@@ -86422,6 +87315,11 @@
                 "Method": "Level",
                 "Condition": "25"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Mystic",
+            "Fortune"
         ]
     },
     "GIGALITH": {
@@ -86555,6 +87453,11 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Mystic",
+            "Fortune"
         ]
     },
     "WOOBAT": {
@@ -86889,6 +87792,11 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Fortune",
+            "Harmonic",
+            "Charmer"
         ]
     },
     "DRILBUR": {
@@ -87209,6 +88117,9 @@
                 "Method": "Level",
                 "Condition": "31"
             }
+        ],
+        "Tribes": [
+            "Industrious"
         ]
     },
     "AUDINO": {
@@ -87742,6 +88653,10 @@
                 "Method": "Level",
                 "Condition": "21"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Warrior"
         ]
     },
     "CONKELDURR": {
@@ -87866,6 +88781,10 @@
                 "Method": "Level",
                 "Condition": "40"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Warrior"
         ]
     },
     "TYMPOLE": {
@@ -88229,6 +89148,11 @@
                 "Method": "Level",
                 "Condition": "22"
             }
+        ],
+        "Tribes": [
+            "Caretaker",
+            "Scrapper",
+            "Harmonic"
         ]
     },
     "SEISMITOAD": {
@@ -88374,6 +89298,11 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Caretaker",
+            "Scrapper",
+            "Harmonic"
         ]
     },
     "THROH": {
@@ -89140,6 +90069,11 @@
                 "Method": "Level",
                 "Condition": "21"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Assassin",
+            "Caretaker"
         ]
     },
     "LEAVANNY": {
@@ -89277,6 +90211,11 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Assassin",
+            "Caretaker"
         ]
     },
     "VENIPEDE": {
@@ -89598,6 +90537,10 @@
                 "Method": "Level",
                 "Condition": "24"
             }
+        ],
+        "Tribes": [
+            "Stampede",
+            "Bushwhacker"
         ]
     },
     "SCOLIPEDE": {
@@ -89728,6 +90671,10 @@
                 "Method": "Level",
                 "Condition": "43"
             }
+        ],
+        "Tribes": [
+            "Stampede",
+            "Bushwhacker"
         ]
     },
     "COTTONEE": {
@@ -90030,6 +90977,10 @@
                 "Method": "Item",
                 "Condition": "SUNSTONE"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Loyal"
         ]
     },
     "PETILIL": {
@@ -90944,6 +91895,10 @@
                 "Method": "Level",
                 "Condition": "21"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Scrapper"
         ]
     },
     "KROOKODILE": {
@@ -91098,6 +92053,10 @@
                 "Method": "Level",
                 "Condition": "40"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Scrapper"
         ]
     },
     "DARUMAKA": {
@@ -91421,6 +92380,10 @@
                 "Method": "Level",
                 "Condition": "35"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Mystic"
         ]
     },
     "MARACTUS": {
@@ -91897,6 +92860,10 @@
                 "Method": "Level",
                 "Condition": "29"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Tyrannical"
         ]
     },
     "SCRAGGY": {
@@ -92239,6 +93206,9 @@
                 "Method": "Level",
                 "Condition": "35"
             }
+        ],
+        "Tribes": [
+            "Scrapper"
         ]
     },
     "SIGILYPH": {
@@ -92770,6 +93740,9 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Mystic"
         ]
     },
     "TIRTOUGA": {
@@ -93084,6 +94057,9 @@
                 "Method": "Level",
                 "Condition": "37"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker"
         ]
     },
     "ARCHEN": {
@@ -93456,6 +94432,9 @@
                 "Method": "Level",
                 "Condition": "37"
             }
+        ],
+        "Tribes": [
+            "Assassin"
         ]
     },
     "TRUBBISH": {
@@ -93768,6 +94747,10 @@
                 "Method": "Level",
                 "Condition": "28"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Scavenger"
         ]
     },
     "ZORUA": {
@@ -94127,6 +95110,10 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Deceiver",
+            "Caretaker"
         ]
     },
     "MINCCINO": {
@@ -94450,6 +95437,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Charmer",
+            "Industrious"
         ]
     },
     "GOTHITA": {
@@ -94788,6 +95779,11 @@
                 "Method": "Level",
                 "Condition": "25"
             }
+        ],
+        "Tribes": [
+            "Fortune",
+            "Scavenger",
+            "Bushwhacker"
         ]
     },
     "GOTHITELLE": {
@@ -94916,6 +95912,11 @@
                 "Method": "Level",
                 "Condition": "38"
             }
+        ],
+        "Tribes": [
+            "Fortune",
+            "Scavenger",
+            "Bushwhacker"
         ]
     },
     "SOLOSIS": {
@@ -95235,6 +96236,10 @@
                 "Method": "Level",
                 "Condition": "29"
             }
+        ],
+        "Tribes": [
+            "Tactician",
+            "Industrious"
         ]
     },
     "REUNICLUS": {
@@ -95381,6 +96386,10 @@
                 "Method": "Level",
                 "Condition": "40"
             }
+        ],
+        "Tribes": [
+            "Tactician",
+            "Industrious"
         ]
     },
     "DUCKLETT": {
@@ -96005,6 +97014,10 @@
                 "Method": "Level",
                 "Condition": "20"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Serene"
         ]
     },
     "VANILLUXE": {
@@ -96131,6 +97144,10 @@
                 "Method": "Level",
                 "Condition": "38"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Serene"
         ]
     },
     "DEERLING": {
@@ -96518,6 +97535,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Stampede"
         ]
     },
     "EMOLGA": {
@@ -97299,6 +98320,11 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Assassin",
+            "Deceiver"
         ]
     },
     "FRILLISH": {
@@ -97621,6 +98647,11 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Scavenger",
+            "Scourge",
+            "Noble"
         ]
     },
     "ALOMOMOLA": {
@@ -97741,6 +98772,9 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Fortune"
         ]
     },
     "JOLTIK": {
@@ -98056,6 +99090,10 @@
                 "Method": "Level",
                 "Condition": "31"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Scavenger"
         ]
     },
     "FERROSEED": {
@@ -98372,6 +99410,10 @@
                 "Method": "Level",
                 "Condition": "33"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Artillery"
         ]
     },
     "KLINK": {
@@ -98685,6 +99727,10 @@
                 "Method": "Level",
                 "Condition": "24"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Industrious"
         ]
     },
     "KLINKLANG": {
@@ -98812,6 +99858,10 @@
                 "Method": "Level",
                 "Condition": "44"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Industrious"
         ]
     },
     "TYNAMO": {
@@ -99138,6 +100188,10 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Tactician",
+            "Bushwhacker"
         ]
     },
     "EELEKTROSS": {
@@ -99263,6 +100317,10 @@
                 "Method": "Level",
                 "Condition": "43"
             }
+        ],
+        "Tribes": [
+            "Tactician",
+            "Bushwhacker"
         ]
     },
     "ELGYEM": {
@@ -99634,6 +100692,10 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Deceiver"
         ]
     },
     "LITWICK": {
@@ -99948,6 +101010,11 @@
                 "Method": "Level",
                 "Condition": "23"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Deceiver",
+            "Animated"
         ]
     },
     "CHANDELURE": {
@@ -100073,6 +101140,11 @@
                 "Method": "Item",
                 "Condition": "FIRESTONE"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Deceiver",
+            "Animated"
         ]
     },
     "AXEW": {
@@ -100401,6 +101473,9 @@
                 "Method": "Level",
                 "Condition": "22"
             }
+        ],
+        "Tribes": [
+            "Tyrannical"
         ]
     },
     "HAXORUS": {
@@ -100528,6 +101603,9 @@
                 "Method": "Level",
                 "Condition": "45"
             }
+        ],
+        "Tribes": [
+            "Tyrannical"
         ]
     },
     "CUBCHOO": {
@@ -101872,6 +102950,11 @@
                 "Method": "Level",
                 "Condition": "33"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Warrior",
+            "Assassin"
         ]
     },
     "DRUDDIGON": {
@@ -102514,6 +103597,10 @@
                 "Method": "Level",
                 "Condition": "33"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Artillery"
         ]
     },
     "PAWNIARD": {
@@ -102847,6 +103934,10 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Tactician"
         ]
     },
     "BOUFFALANT": {
@@ -103649,6 +104740,10 @@
                 "Method": "Level",
                 "Condition": "31"
             }
+        ],
+        "Tribes": [
+            "Scavenger",
+            "Assassin"
         ]
     },
     "HEATMOR": {
@@ -104567,6 +105662,11 @@
                 "Method": "Level",
                 "Condition": "50"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Tyrannical",
+            "Tactician"
         ]
     },
     "LARVESTA": {
@@ -104891,6 +105991,9 @@
                 "Method": "Level",
                 "Condition": "44"
             }
+        ],
+        "Tribes": [
+            "Radiant"
         ]
     },
     "COBALION": {
@@ -107240,6 +108343,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Warrior"
         ]
     },
     "CHESNAUGHT": {
@@ -107365,6 +108472,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Warrior"
         ]
     },
     "FENNEKIN": {
@@ -107687,6 +108798,9 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Mystic"
         ]
     },
     "DELPHOX": {
@@ -108132,6 +109246,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Assassin",
+            "Deceiver"
         ]
     },
     "GRENINJA": {
@@ -108261,6 +109379,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Assassin",
+            "Deceiver"
         ]
     },
     "BUNNELBY": {
@@ -108580,6 +109702,9 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Industrious"
         ]
     },
     "FLETCHLING": {
@@ -108884,6 +110009,10 @@
                 "Method": "Level",
                 "Condition": "17"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Scourge"
         ]
     },
     "TALONFLAME": {
@@ -109009,6 +110138,10 @@
                 "Method": "Level",
                 "Condition": "35"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Scourge"
         ]
     },
     "SCATTERBUG": {
@@ -109322,6 +110455,9 @@
                 "Method": "Level",
                 "Condition": "18"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker"
         ]
     },
     "VIVILLON": {
@@ -109444,6 +110580,9 @@
                 "Method": "Level",
                 "Condition": "27"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker"
         ]
     },
     "LITLEO": {
@@ -109758,6 +110897,10 @@
                 "Method": "Item",
                 "Condition": "SUNSTONE"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Noble"
         ]
     },
     "FLABEBE": {
@@ -110057,6 +111200,10 @@
                 "Method": "Level",
                 "Condition": "23"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Caretaker"
         ]
     },
     "FLORGES": {
@@ -110547,6 +111694,11 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Industrious",
+            "Stampede"
         ]
     },
     "PANCHAM": {
@@ -110914,6 +112066,10 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Warrior"
         ]
     },
     "FURFROU": {
@@ -111437,6 +112593,10 @@
                 "Method": "Level",
                 "Condition": "31"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Artillery"
         ]
     },
     "HONEDGE": {
@@ -111744,6 +112904,11 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Loyal",
+            "Deceiver"
         ]
     },
     "AEGISLASH": {
@@ -111872,6 +113037,11 @@
                 "Method": "Item",
                 "Condition": "SHINYSTONE"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Loyal",
+            "Deceiver"
         ]
     },
     "SPRITZEE": {
@@ -112189,6 +113359,9 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Charmer"
         ]
     },
     "SWIRLIX": {
@@ -112482,6 +113655,10 @@
                 "Method": "Level",
                 "Condition": "29"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Serene"
         ]
     },
     "INKAY": {
@@ -112799,6 +113976,10 @@
                 "Method": "Item",
                 "Condition": "WATERSTONE"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Charmer"
         ]
     },
     "BINACLE": {
@@ -113138,6 +114319,9 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Tactician"
         ]
     },
     "SKRELP": {
@@ -113439,6 +114623,11 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Deceiver",
+            "Scourge",
+            "Assassin"
         ]
     },
     "CLAUNCHER": {
@@ -113750,6 +114939,10 @@
                 "Method": "Level",
                 "Condition": "37"
             }
+        ],
+        "Tribes": [
+            "Artillery",
+            "Assassin"
         ]
     },
     "HELIOPTILE": {
@@ -114071,6 +115264,9 @@
                 "Method": "Item",
                 "Condition": "SUNSTONE"
             }
+        ],
+        "Tribes": [
+            "Radiant"
         ]
     },
     "TYRUNT": {
@@ -114409,6 +115605,11 @@
                 "Method": "Level",
                 "Condition": "39"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Scourge",
+            "Noble"
         ]
     },
     "AMAURA": {
@@ -114751,6 +115952,11 @@
                 "Method": "Level",
                 "Condition": "39"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Radiant",
+            "Harmonic"
         ]
     },
     "SYLVEON": {
@@ -115785,6 +116991,9 @@
                 "Method": "Level",
                 "Condition": "23"
             }
+        ],
+        "Tribes": [
+            "Serene"
         ]
     },
     "GOODRA": {
@@ -116436,6 +117645,10 @@
                 "Method": "Level",
                 "Condition": "33"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Deceiver"
         ]
     },
     "PUMPKABOO": {
@@ -117437,6 +118650,10 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Harmonic",
+            "Assassin"
         ]
     },
     "XERNEAS": {
@@ -118055,6 +119272,10 @@
                 "Method": "Item",
                 "Condition": "DIAMONDTIARA"
             }
+        ],
+        "Tribes": [
+            "Fortune",
+            "Radiant"
         ]
     },
     "HOOPA": {
@@ -118710,6 +119931,9 @@
                 "Method": "Level",
                 "Condition": "17"
             }
+        ],
+        "Tribes": [
+            "Assassin"
         ]
     },
     "DECIDUEYE": {
@@ -119204,6 +120428,9 @@
                 "Method": "Level",
                 "Condition": "17"
             }
+        ],
+        "Tribes": [
+            "Scrapper"
         ]
     },
     "INCINEROAR": {
@@ -119329,6 +120556,9 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Scrapper"
         ]
     },
     "POPPLIO": {
@@ -119654,6 +120884,10 @@
                 "Method": "Level",
                 "Condition": "17"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Harmonic"
         ]
     },
     "PRIMARINA": {
@@ -119782,6 +121016,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Harmonic"
         ]
     },
     "PIKIPEK": {
@@ -120142,6 +121380,11 @@
                 "Method": "Level",
                 "Condition": "21"
             }
+        ],
+        "Tribes": [
+            "Artillery",
+            "Scavenger",
+            "Harmonic"
         ]
     },
     "TOUCANNON": {
@@ -120290,6 +121533,11 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Artillery",
+            "Scavenger",
+            "Harmonic"
         ]
     },
     "YUNGOOS": {
@@ -120656,6 +121904,10 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Scavenger",
+            "Industrious"
         ]
     },
     "GRUBBIN": {
@@ -120970,6 +122222,10 @@
                 "Method": "Level",
                 "Condition": "20"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Industrious"
         ]
     },
     "VIKAVOLT": {
@@ -121095,6 +122351,10 @@
                 "Method": "Item",
                 "Condition": "THUNDERSTONE"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Industrious"
         ]
     },
     "CRABRAWLER": {
@@ -121411,6 +122671,9 @@
                 "Method": "Level",
                 "Condition": "35"
             }
+        ],
+        "Tribes": [
+            "Scrapper"
         ]
     },
     "ORICORIO": {
@@ -121903,6 +123166,11 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Charmer",
+            "Assassin",
+            "Harmonic"
         ]
     },
     "ROCKRUFF": {
@@ -122212,6 +123480,10 @@
                 "Method": "Level",
                 "Condition": "27"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Tyrannical"
         ]
     },
     "WISHIWASHI": {
@@ -122751,6 +124023,10 @@
                 "Method": "Level",
                 "Condition": "42"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Scourge"
         ]
     },
     "MUDBRAY": {
@@ -123038,6 +124314,10 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Stampede"
         ]
     },
     "DEWPIDER": {
@@ -123391,6 +124671,10 @@
                 "Method": "Level",
                 "Condition": "31"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Caretaker"
         ]
     },
     "FOMANTIS": {
@@ -123772,6 +125056,10 @@
                 "Method": "Level",
                 "Condition": "37"
             }
+        ],
+        "Tribes": [
+            "Deceiver",
+            "Radiant"
         ]
     },
     "MORELULL": {
@@ -124074,6 +125362,10 @@
                 "Method": "Level",
                 "Condition": "29"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Radiant"
         ]
     },
     "SALANDIT": {
@@ -124739,6 +126031,11 @@
                 "Method": "Level",
                 "Condition": "27"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Caretaker",
+            "Animated"
         ]
     },
     "BOUNSWEET": {
@@ -125064,6 +126361,9 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Animated"
         ]
     },
     "TSAREENA": {
@@ -126452,6 +127752,11 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Scourge",
+            "Charmer"
         ]
     },
     "PYUKUMUKU": {
@@ -126959,6 +128264,9 @@
                 "Method": "Level",
                 "Condition": "52"
             }
+        ],
+        "Tribes": [
+            "Loyal"
         ]
     },
     "MINIOR": {
@@ -128903,6 +130211,10 @@
                 "Method": "Level",
                 "Condition": "27"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Harmonic"
         ]
     },
     "KOMMOO": {
@@ -129048,6 +130360,10 @@
                 "Method": "Level",
                 "Condition": "45"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Harmonic"
         ]
     },
     "TAPUKOKO": {
@@ -133288,6 +134604,9 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Harmonic"
         ]
     },
     "RILLABOOM": {
@@ -133412,6 +134731,9 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Harmonic"
         ]
     },
     "SCORBUNNY": {
@@ -133722,6 +135044,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Tactician"
         ]
     },
     "CINDERACE": {
@@ -133846,6 +135172,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Tactician"
         ]
     },
     "SOBBLE": {
@@ -134178,6 +135508,10 @@
                 "Method": "Level",
                 "Condition": "16"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Charmer"
         ]
     },
     "INTELEON": {
@@ -134634,6 +135968,9 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Scavenger"
         ]
     },
     "ROOKIDEE": {
@@ -134942,6 +136279,10 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Tactician"
         ]
     },
     "CORVIKNIGHT": {
@@ -135386,6 +136727,10 @@
                 "Method": "Level",
                 "Condition": "22"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Tactician"
         ]
     },
     "ORBEETLE": {
@@ -135518,6 +136863,10 @@
                 "Method": "Level",
                 "Condition": "37"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Tactician"
         ]
     },
     "NICKIT": {
@@ -135902,6 +137251,10 @@
                 "Method": "Level",
                 "Condition": "27"
             }
+        ],
+        "Tribes": [
+            "Assassin",
+            "Deceiver"
         ]
     },
     "GOSSIFLEUR": {
@@ -136182,6 +137535,10 @@
                 "Method": "Level",
                 "Condition": "28"
             }
+        ],
+        "Tribes": [
+            "Charmer",
+            "Harmonic"
         ]
     },
     "WOOLOO": {
@@ -136809,6 +138166,10 @@
                 "Method": "Level",
                 "Condition": "22"
             }
+        ],
+        "Tribes": [
+            "Stampede",
+            "Tyrannical"
         ]
     },
     "YAMPER": {
@@ -137113,6 +138474,10 @@
                 "Method": "Level",
                 "Condition": "29"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Industrious"
         ]
     },
     "ROLYCOLY": {
@@ -137618,6 +138983,10 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Assassin",
+            "Animated"
         ]
     },
     "APPLIN": {
@@ -137907,6 +139276,10 @@
                 "Method": "Item",
                 "Condition": "TARTAPPLE"
             }
+        ],
+        "Tribes": [
+            "Deceiver",
+            "Animated"
         ]
     },
     "APPLETUN": {
@@ -138049,6 +139422,10 @@
                 "Method": "Item",
                 "Condition": "SWEETAPPLE"
             }
+        ],
+        "Tribes": [
+            "Deceiver",
+            "Animated"
         ]
     },
     "SILICOBRA": {
@@ -138345,6 +139722,9 @@
                 "Method": "Level",
                 "Condition": "24"
             }
+        ],
+        "Tribes": [
+            "Artillery"
         ]
     },
     "CRAMORANT": {
@@ -138807,6 +140187,10 @@
                 "Method": "Level",
                 "Condition": "33"
             }
+        ],
+        "Tribes": [
+            "Assassin",
+            "Stampede"
         ]
     },
     "TOXEL": {
@@ -139112,6 +140496,10 @@
                 "Method": "Level",
                 "Condition": "22"
             }
+        ],
+        "Tribes": [
+            "Harmonic",
+            "Radiant"
         ]
     },
     "SIZZLIPEDE": {
@@ -139405,6 +140793,10 @@
                 "Method": "Level",
                 "Condition": "24"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Tyrannical"
         ]
     },
     "CLOBBOPUS": {
@@ -139707,6 +141099,10 @@
                 "Method": "Level",
                 "Condition": "29"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Bushwhacker"
         ]
     },
     "SINISTEA": {
@@ -140010,6 +141406,10 @@
                 "Method": "Item",
                 "Condition": "LEAFSTONE"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Scavenger"
         ]
     },
     "HATENNA": {
@@ -140336,6 +141736,11 @@
                 "Method": "Level",
                 "Condition": "24"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Scourge",
+            "Harmonic"
         ]
     },
     "HATTERENE": {
@@ -140464,6 +141869,11 @@
                 "Method": "Level",
                 "Condition": "38"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Scourge",
+            "Harmonic"
         ]
     },
     "IMPIDIMP": {
@@ -140779,6 +142189,10 @@
                 "Method": "Level",
                 "Condition": "24"
             }
+        ],
+        "Tribes": [
+            "Deceiver",
+            "Assassin"
         ]
     },
     "GRIMMSNARL": {
@@ -141038,6 +142452,11 @@
                 "Method": "Level",
                 "Condition": "35"
             }
+        ],
+        "Tribes": [
+            "Scavenger",
+            "Scourge",
+            "Harmonic"
         ]
     },
     "PERRSERKER": {
@@ -141175,6 +142594,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Fortune",
+            "Scrapper"
         ]
     },
     "CURSOLA": {
@@ -141315,6 +142738,10 @@
                 "Method": "Level",
                 "Condition": "38"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Fortune"
         ]
     },
     "SIRFETCHD": {
@@ -141577,6 +143004,10 @@
                 "Method": "Level",
                 "Condition": "42"
             }
+        ],
+        "Tribes": [
+            "Charmer",
+            "Mystic"
         ]
     },
     "RUNERIGUS": {
@@ -141709,6 +143140,10 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Fortune"
         ]
     },
     "MILCERY": {
@@ -142006,6 +143441,10 @@
                 "Method": "Level",
                 "Condition": "24"
             }
+        ],
+        "Tribes": [
+            "Fortune",
+            "Animated"
         ]
     },
     "FALINKS": {
@@ -142685,6 +144124,11 @@
                 "Method": "Level",
                 "Condition": "44"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Caretaker",
+            "Radiant"
         ]
     },
     "STONJOURNER": {
@@ -143764,6 +145208,10 @@
                 "Method": "Level",
                 "Condition": "29"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Stampede"
         ]
     },
     "DRACOZOLT": {
@@ -145101,6 +146549,11 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Caretaker",
+            "Assassin",
+            "Artillery"
         ]
     },
     "DRAGAPULT": {
@@ -145261,6 +146714,11 @@
                 "Method": "Level",
                 "Condition": "50"
             }
+        ],
+        "Tribes": [
+            "Caretaker",
+            "Assassin",
+            "Artillery"
         ]
     },
     "ZACIAN": {
@@ -147032,6 +148490,10 @@
                 "Method": "Level",
                 "Condition": "42"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Assassin"
         ]
     },
     "PAPELLUMEN": {
@@ -147221,6 +148683,10 @@
                 "Method": "Level",
                 "Condition": "42"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Serene"
         ]
     },
     "TEAMUJIN": {
@@ -147473,6 +148939,10 @@
                 "Method": "Level",
                 "Condition": "50"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Loyal"
         ]
     },
     "RUBARIOR": {
@@ -147619,6 +149089,11 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Radiant",
+            "Fortune"
         ]
     },
     "DECEAT": {
@@ -147737,6 +149212,10 @@
                 "Method": "Level",
                 "Condition": "42"
             }
+        ],
+        "Tribes": [
+            "Charmer",
+            "Deceiver"
         ]
     },
     "PALMANTRA": {
@@ -147886,6 +149365,10 @@
                 "Method": "Level",
                 "Condition": "49"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Serene"
         ]
     },
     "MANERGETIC": {
@@ -148010,6 +149493,10 @@
                 "Method": "Level",
                 "Condition": "46"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Artillery"
         ]
     },
     "SCARODON": {
@@ -148135,6 +149622,10 @@
                 "Method": "Level",
                 "Condition": "42"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Scrapper"
         ]
     },
     "DROMERUPT": {
@@ -148260,6 +149751,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Artillery",
+            "Stampede"
         ]
     },
     "HYMNUS": {
@@ -148408,6 +149903,10 @@
                 "Method": "Level",
                 "Condition": "50"
             }
+        ],
+        "Tribes": [
+            "Harmonic",
+            "Caretaker"
         ]
     },
     "MANIKLAW": {
@@ -148534,6 +150033,11 @@
                 "Method": "Level",
                 "Condition": "44"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Animated",
+            "Loyal"
         ]
     },
     "ABSOLUS": {
@@ -148695,6 +150199,10 @@
                 "Method": "Level",
                 "Condition": "45"
             }
+        ],
+        "Tribes": [
+            "Fortune",
+            "Loyal"
         ]
     },
     "HAEROBIC": {
@@ -148824,6 +150332,10 @@
                 "Method": "Level",
                 "Condition": "45"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Assassin"
         ]
     },
     "CONIFEAR": {
@@ -148977,6 +150489,10 @@
                 "Method": "Level",
                 "Condition": "45"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Caretaker"
         ]
     },
     "SENSIBELLE": {
@@ -149104,6 +150620,10 @@
                 "Method": "Level",
                 "Condition": "42"
             }
+        ],
+        "Tribes": [
+            "Caretaker",
+            "Harmonic"
         ]
     },
     "SAHARICANE": {
@@ -149353,6 +150873,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Noble",
+            "Tyrannical"
         ]
     },
     "SEISMAW": {
@@ -149478,6 +151002,10 @@
                 "Method": "Level",
                 "Condition": "42"
             }
+        ],
+        "Tribes": [
+            "Stampede",
+            "Tyrannical"
         ]
     },
     "ARCLAMOR": {
@@ -149603,6 +151131,10 @@
                 "Method": "Level",
                 "Condition": "43"
             }
+        ],
+        "Tribes": [
+            "Harmonic",
+            "Radiant"
         ]
     },
     "BLASFEMMIE": {
@@ -149878,6 +151410,10 @@
                 "Method": "Level",
                 "Condition": "44"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Tyrannical"
         ]
     },
     "ATLACROSS": {
@@ -150003,6 +151539,10 @@
                 "Method": "Level",
                 "Condition": "46"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Scavenger"
         ]
     },
     "SAURENAID": {
@@ -150131,6 +151671,11 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Harmonic",
+            "Caretaker"
         ]
     },
     "DONSTER": {
@@ -150248,6 +151793,10 @@
                 "Method": "Level",
                 "Condition": "40"
             }
+        ],
+        "Tribes": [
+            "Scourge",
+            "Scavenger"
         ]
     },
     "NIBELONG": {
@@ -150387,6 +151936,11 @@
                 "Method": "Item",
                 "Condition": "DAWNSTONE"
             }
+        ],
+        "Tribes": [
+            "Fortune",
+            "Charmer",
+            "Noble"
         ]
     },
     "GIGANTEON": {
@@ -150721,6 +152275,10 @@
                 "Method": "Item",
                 "Condition": "DAWNSTONE"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Loyal"
         ]
     },
     "MILLIBLAZE": {
@@ -150837,6 +152395,10 @@
                 "Method": "Level",
                 "Condition": "41"
             }
+        ],
+        "Tribes": [
+            "Bushwhacker",
+            "Tyrannical"
         ]
     },
     "RIOJIN": {
@@ -150961,6 +152523,11 @@
                 "Method": "Level",
                 "Condition": "47"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Warrior",
+            "Harmonic"
         ]
     },
     "TITANIX": {
@@ -151086,6 +152653,10 @@
                 "Method": "Level",
                 "Condition": "50"
             }
+        ],
+        "Tribes": [
+            "Stampede",
+            "Radiant"
         ]
     },
     "DIGNIPHITE": {
@@ -151227,6 +152798,10 @@
                 "Method": "Level",
                 "Condition": "49"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Stampede"
         ]
     },
     "TOWERPODA": {
@@ -151352,6 +152927,11 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Industrious",
+            "Radiant"
         ]
     },
     "PTEROFLYTE": {
@@ -151480,6 +153060,10 @@
                 "Method": "Level",
                 "Condition": "40"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Assassin"
         ]
     },
     "REAVOR": {
@@ -151632,6 +153216,10 @@
                 "Method": "Level",
                 "Condition": "49"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Assassin"
         ]
     },
     "ARATTATA": {
@@ -151954,6 +153542,10 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Loyal"
         ]
     },
     "ARAICHU": {
@@ -152125,6 +153717,10 @@
                 "Method": "Item",
                 "Condition": "ALOLANWREATH"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Loyal"
         ]
     },
     "ASANDSHREW": {
@@ -152460,6 +154056,10 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Assassin",
+            "Scourge"
         ]
     },
     "AVULPIX": {
@@ -152788,6 +154388,10 @@
                 "Method": "Item",
                 "Condition": "ICESTONE"
             }
+        ],
+        "Tribes": [
+            "Caretaker",
+            "Mystic"
         ]
     },
     "ADIGLETT": {
@@ -153645,6 +155249,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Fortune",
+            "Noble"
         ]
     },
     "AGEODUDE": {
@@ -153981,6 +155589,11 @@
                 "Method": "Level",
                 "Condition": "20"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Animated",
+            "Artillery"
         ]
     },
     "AGOLEM": {
@@ -154101,6 +155714,11 @@
                 "Method": "Level",
                 "Condition": "35"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Animated",
+            "Artillery"
         ]
     },
     "GPONYTA": {
@@ -154402,6 +156020,10 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Stampede",
+            "Radiant"
         ]
     },
     "GSLOWPOKE": {
@@ -155330,6 +156952,10 @@
                 "Method": "Level",
                 "Condition": "33"
             }
+        ],
+        "Tribes": [
+            "Industrious",
+            "Radiant"
         ]
     },
     "AEXEGGUTOR": {
@@ -155506,6 +157132,10 @@
                 "Method": "Item",
                 "Condition": "ALOLANWREATH"
             }
+        ],
+        "Tribes": [
+            "Tactician",
+            "Animated"
         ]
     },
     "AMAROWAK": {
@@ -155958,6 +157588,10 @@
                 "Method": "Item",
                 "Condition": "GALARICAWREATH"
             }
+        ],
+        "Tribes": [
+            "Charmer",
+            "Mystic"
         ]
     },
     "GARTICUNO": {
@@ -157118,6 +158752,11 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Scavenger",
+            "Scourge",
+            "Harmonic"
         ]
     },
     "GDARUMAKA": {
@@ -157444,6 +159083,10 @@
                 "Method": "Item",
                 "Condition": "ICESTONE"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Mystic"
         ]
     },
     "GYAMASK": {
@@ -158068,6 +159711,10 @@
                 "Method": "Originize",
                 "Condition": "44"
             }
+        ],
+        "Tribes": [
+            "Tyrannical",
+            "Caretaker"
         ]
     },
     "KLEAVOR": {
@@ -158209,6 +159856,10 @@
                 "Method": "Originize",
                 "Condition": "41"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Assassin"
         ]
     },
     "BASCULEGION": {
@@ -159061,6 +160712,9 @@
                 "Method": "Originize",
                 "Condition": "23"
             }
+        ],
+        "Tribes": [
+            "Serene"
         ]
     },
     "HGOODRA": {
@@ -159819,6 +161473,10 @@
                 "Method": "Level",
                 "Condition": "35"
             }
+        ],
+        "Tribes": [
+            "Loyal",
+            "Noble"
         ]
     },
     "HSNEASEL": {
@@ -160117,6 +161775,10 @@
                 "Method": "Level",
                 "Condition": "33"
             }
+        ],
+        "Tribes": [
+            "Assassin",
+            "Mystic"
         ]
     },
     "HVOLTORB": {
@@ -160402,6 +162064,11 @@
                 "Method": "Level",
                 "Condition": "32"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Artillery",
+            "Bushwhacker"
         ]
     },
     "HZORUA": {
@@ -160727,6 +162394,10 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Deceiver",
+            "Caretaker"
         ]
     },
     "HQWILFISH": {
@@ -161049,6 +162720,10 @@
                 "Method": "Level",
                 "Condition": "38"
             }
+        ],
+        "Tribes": [
+            "Artillery",
+            "Scourge"
         ]
     },
     "ENAMORUS": {
@@ -161316,6 +162991,10 @@
                 "Method": "Level",
                 "Condition": "36"
             }
+        ],
+        "Tribes": [
+            "Scrapper",
+            "Stampede"
         ]
     },
     "FARIGIRAF": {
@@ -161711,6 +163390,10 @@
                 "Method": "Level",
                 "Condition": "47"
             }
+        ],
+        "Tribes": [
+            "Warrior",
+            "Tactician"
         ]
     },
     "MZANGOOSE": {
@@ -162235,6 +163918,10 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Serene"
         ]
     },
     "MSEVIPER": {
@@ -162759,6 +164446,10 @@
                 "Method": "Level",
                 "Condition": "34"
             }
+        ],
+        "Tribes": [
+            "Fortune",
+            "Scourge"
         ]
     },
     "MVULPIX": {
@@ -163087,6 +164778,10 @@
                 "Method": "Item",
                 "Condition": "DUSKSTONE"
             }
+        ],
+        "Tribes": [
+            "Fortune",
+            "Noble"
         ]
     },
     "MSINISTEA": {
@@ -163403,6 +165098,10 @@
                 "Method": "Item",
                 "Condition": "ICESTONE"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Serene"
         ]
     },
     "MWURMPLE": {
@@ -163595,6 +165294,9 @@
                 "Method": "Ability0",
                 "Condition": "18"
             }
+        ],
+        "Tribes": [
+            "Scavenger"
         ]
     },
     "MBEAUTIFLY": {
@@ -163895,6 +165597,9 @@
                 "Method": "Ability1",
                 "Condition": "18"
             }
+        ],
+        "Tribes": [
+            "Scavenger"
         ]
     },
     "MDUSTOX": {
@@ -164424,6 +166129,10 @@
                 "Method": "Level",
                 "Condition": "25"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Animated"
         ]
     },
     "MGIGALITH": {
@@ -164559,6 +166268,10 @@
                 "Method": "Level",
                 "Condition": "43"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Animated"
         ]
     },
     "MHOOTHOOT": {
@@ -164886,6 +166599,10 @@
                 "Method": "Level",
                 "Condition": "26"
             }
+        ],
+        "Tribes": [
+            "Serene",
+            "Fortune"
         ]
     },
     "MGOLDEEN": {
@@ -166038,6 +167755,11 @@
                 "Method": "Level",
                 "Condition": "31"
             }
+        ],
+        "Tribes": [
+            "Animated",
+            "Mystic",
+            "Scourge"
         ]
     },
     "MMUNNA": {
@@ -166354,6 +168076,10 @@
                 "Method": "Level",
                 "Condition": "37"
             }
+        ],
+        "Tribes": [
+            "Mystic",
+            "Serene"
         ]
     },
     "MFRILLISH": {
@@ -166721,6 +168447,11 @@
                 "Method": "Level",
                 "Condition": "30"
             }
+        ],
+        "Tribes": [
+            "Scavenger",
+            "Scourge",
+            "Noble"
         ]
     },
     "PORYGONMAV": {
@@ -166889,6 +168620,11 @@
                 "Method": "Item",
                 "Condition": "THUNDERSTONE"
             }
+        ],
+        "Tribes": [
+            "Radiant",
+            "Mystic",
+            "Animated"
         ]
     },
     "MAROMATISSE": {
@@ -167057,6 +168793,9 @@
                 "Method": "Item",
                 "Condition": "LEAFSTONE"
             }
+        ],
+        "Tribes": [
+            "Charmer"
         ]
     }
 }

@@ -238,7 +238,6 @@ def parse_evolutions(mon_text):
             {"Pokemon": trio[0], "Method": trio[1], "Condition": trio[2]}
             for trio in evos_trios
         ]
-        # TODO: Reassign internal names to real names
         return evos
 
 
@@ -294,6 +293,7 @@ for mon_text in mons:
     pokemon[id] = data
 
 # TODO: Proliferate necessary cross-line changes
+# Fill in pre-evolution data for two-way links
 for mon, data in pokemon.items():
     if "Evolutions" in data:
         for evo in data["Evolutions"]:
@@ -305,6 +305,21 @@ for mon, data in pokemon.items():
                     "Condition": evo["Condition"],
                 }
             ]
+
+
+def proliferate(mon):
+    data = pokemon[mon]
+    if not "Evolutions" in data:
+        return
+    for evo in data["Evolutions"]:
+        name = evo["Pokemon"]
+        if "Tribes" in data and not "Tribes" in pokemon[name]:
+            pokemon[name]["Tribes"] = data["Tribes"]
+        proliferate(name)
+
+
+for mon, _ in pokemon.items():
+    proliferate(mon)
 
 # TODO: Read in encounter data
 
