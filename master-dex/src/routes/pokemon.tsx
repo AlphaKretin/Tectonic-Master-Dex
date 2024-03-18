@@ -74,6 +74,9 @@ export default function Pokemon() {
   const pokemon: Record<string, Pokemon> = pokemonJson;
   const params = useParams();
   const currentMon = pokemon[params.pokemonId!];
+  const bst = Object.values(currentMon.BaseStats).reduce((a, b) => a + b, 0);
+
+  let wildItems: string | undefined;
 
   return (
     <div id="contact">
@@ -81,20 +84,95 @@ export default function Pokemon() {
         <h1>{currentMon.Name}</h1>
         <i>{currentMon.Kind} Pokémon</i>
       </div>
-      <div id="basics">
-        <ul>
-          <li>{currentMon.Types.join(", ")}</li>
-          <li>Height: {currentMon.Height.toFixed(1)} m</li>
-          <li>Weight: {currentMon.Weight.toFixed(1)} kg</li>
-        </ul>
+      <div className="flexbox-container">
+        <div id="image">
+          <img
+            src={`https://raw.githubusercontent.com/xeuorux/Pokemon-Tectonic/main/Graphics/Pokemon/Front/${currentMon.InternalName}.png`}
+          ></img>
+        </div>
+        <div id="basics">
+          <ul>
+            <li>{currentMon.Types.join(", ")}</li>
+            <li>Height: {currentMon.Height.toFixed(1)} m</li>
+            <li>Weight: {currentMon.Weight.toFixed(1)} kg</li>
+          </ul>
+        </div>
       </div>
-
       <div id="entry">
         <p>{currentMon.Pokedex}</p>
       </div>
       <div id="abilities">
         <h2>Abilities</h2>
         {AbilityRender(currentMon)}
+      </div>
+      <div id="stats">
+        <div className="flexbox-container">
+          <div id="base-stats">
+            <h2>Base Stats</h2>
+            <table>
+              <tr>
+                <th>HP</th>
+                <td>{currentMon.BaseStats.hp}</td>
+              </tr>
+              <tr>
+                <th>Attack</th>
+                <td>{currentMon.BaseStats.attack}</td>
+              </tr>
+              <tr>
+                <th>Defense</th>
+                <td>{currentMon.BaseStats.defense}</td>
+              </tr>
+              <tr>
+                <th>Sp. Atk</th>
+                <td>{currentMon.BaseStats.sp_atk}</td>
+              </tr>
+              <tr>
+                <th>Sp. Def</th>
+                <td>{currentMon.BaseStats.sp_def}</td>
+              </tr>
+              <tr>
+                <th>Speed</th>
+                <td>{currentMon.BaseStats.speed}</td>
+              </tr>
+              <tr>
+                <th>Total</th>
+                <td>{bst}</td>
+              </tr>
+            </table>
+          </div>
+
+          <div id="other-stats">
+            <h2>Other Stats</h2>
+            <table>
+              <tr>
+                <th>Gender Rate</th>
+                <td>{currentMon.GenderRate}</td>
+              </tr>
+              <tr>
+                <th>Growth Rate</th>
+                <td>{currentMon.GrowthRate}</td>
+              </tr>
+              <tr>
+                <th>Catch Rate</th>
+                <td>{currentMon.CatchRate}</td>
+              </tr>
+              <tr>
+                <th>Experience Granted</th>
+                <td>{currentMon.BaseEXP}</td>
+              </tr>
+              <tr>
+                <th>Physical EHP</th>
+                <td>000</td>
+              </tr>
+              <tr>
+                <th>Special EHP</th>
+                <td>000</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <h3>Wild Held Items</h3>
+        {wildItems || "None"}
       </div>
     </div>
   );

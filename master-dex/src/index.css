@@ -61,27 +61,9 @@ button:active {
   align-items: flex-start;
   gap: 1rem;
 }
-#contact h1 form {
-  display: flex;
-  align-items: center;
-  margin-top: 0.25rem;
-}
-#contact h1 form button {
-  box-shadow: none;
-  font-size: 1.5rem;
-  font-weight: 400;
-  padding: 0;
-}
-#contact h1 form button[value="true"] {
-  color: #a4a4a4;
-}
-#contact h1 form button[value="true"]:hover,
-#contact h1 form button[value="false"] {
-  color: #eeb004;
-}
 
-form[action$="destroy"] button {
-  color: #f44250;
+#contact {
+  padding-bottom: 5%;
 }
 
 .sr-only {
@@ -315,4 +297,17 @@ i {
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+}
+
+table {
+  text-align: right;
+}
+
+#other-stats {
+  margin-left: 1cm;
 }
