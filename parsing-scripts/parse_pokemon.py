@@ -23,7 +23,7 @@ def parse_mapped_string(regex, map):
     return F
 
 
-def parse_number(regex):
+def parse_integer(regex):
     def F(mon_text):
         num_match = re.search(regex, mon_text, re.MULTILINE)
         if num_match:
@@ -34,8 +34,19 @@ def parse_number(regex):
     return F
 
 
+def parse_float(regex):
+    def F(mon_text):
+        num_match = re.search(regex, mon_text, re.MULTILINE)
+        if num_match:
+            num_raw = num_match.group(1)
+            num = float(num_raw)
+            return num
+
+    return F
+
+
 # Index
-parse_pokedex_number = parse_number(r"^\[(\d+)\]")
+parse_pokedex_number = parse_integer(r"^\[(\d+)\]")
 
 
 # Name
@@ -111,15 +122,15 @@ growth_rate_map = {
 parse_growth_rate = parse_mapped_string(r"^GrowthRate = (.+)", growth_rate_map)
 
 # BaseEXP
-parse_base_exp = parse_number(r"^BaseEXP = (.+)")
+parse_base_exp = parse_integer(r"^BaseEXP = (.+)")
 
 
 # Rareness
-parse_catch_rate = parse_number(r"^Rareness = (.+)")
+parse_catch_rate = parse_integer(r"^Rareness = (.+)")
 
 
 # Happiness
-parse_base_happiness = parse_number(r"^Happiness = (.+)")
+parse_base_happiness = parse_integer(r"^Happiness = (.+)")
 
 
 # Abilities
@@ -138,17 +149,158 @@ def parse_abilities(mon_text):
 
 
 # Moves
+with open("../data/moves.json", "r", encoding="utf8") as infile:
+    moves = json.loads(infile.read())
+
+
+# from https://stackoverflow.com/a/312464
+def chunks(lst, n):
+    a = []
+    for i in range(0, len(lst), n):
+        a.append(lst[i : i + n])
+    return a
+
+
+def parse_level_moves(mon_text):
+    moves_match = re.search(r"^Moves = (.+)", mon_text, re.MULTILINE)
+    if moves_match:
+        moves_raw = moves_match.group(1)
+        moves_list = moves_raw.split(",")
+        move_pairs = chunks(moves_list, 2)
+        move_tuples = [
+            (int(level), moves[move]["Name"]) for [level, move] in move_pairs
+        ]
+        return move_tuples
+
+
 # LineMoves
+def parse_moves_list(regex):
+    def F(mon_text):
+        moves_match = re.search(regex, mon_text, re.MULTILINE)
+        if moves_match:
+            moves_raw = moves_match.group(1)
+            moves_list = moves_raw.split(",")
+            moves_final = [moves[move]["Name"] for move in moves_list]
+            return moves_final
+
+    return F
+
+
+# TODO: proliferate across evolution lines
+parse_line_moves = parse_moves_list(r"^LineMoves = (.+)")
+
 # TutorMoves
+parse_tutor_moves = parse_moves_list(r"^TutorMoves = (.+)")
+
+
 # Tribes
+def parse_tribes(mon_text):
+    tribes_match = re.search(r"^Tribes = (.+)", mon_text, re.MULTILINE)
+    if tribes_match:
+        tribes_raw = tribes_match.group(1)
+        tribes_list = tribes_raw.split(",")
+        tribes = [tribe.title() for tribe in tribes_list]
+        return tribes
+
+
 # Height
+parse_height = parse_float(r"^Height = (.+)")
+
 # Weight
+parse_weight = parse_float(r"^Weight = (.+)")
+
 # Color
+parse_colour = parse_basic_string(r"^Color = (.+)")
+
 # Shape
+parse_shape = parse_basic_string(r"^Shape = (.+)")
+
 # Kind
+parse_kind = parse_basic_string(r"^Kind = (.+)")
+
 # Pokedex
+parse_pokedex = parse_basic_string(r"^Pokedex = (.+)")
+
 # WildItemCommon
+parse_wild_item_common = parse_basic_string(r"^WildItemCommon = (.+)")
+
 # WildItemUncommon
+parse_wild_item_uncommon = parse_basic_string(r"^WildItemUncommon = (.+)")
+
 # WildItemRare
+parse_wild_item_rare = parse_basic_string(r"^WildItemRare = (.+)")
+
 # FormName
+parse_form = parse_basic_string(r"^FormName = (.+)")
+
+
 # Evolutions
+def parse_evolutions(mon_text):
+    evos_match = re.search(r"^Evolutions = (.+)", mon_text, re.MULTILINE)
+    if evos_match:
+        evos_raw = evos_match.group(1)
+        evos_list = evos_raw.split(",")
+        evos_trios = chunks(evos_list, 3)
+        evos = [
+            {"Pokemon": trio[0], "Method": trio[1], "Condition": trio[2]}
+            for trio in evos_trios
+        ]
+        # TODO: Reassign internal names to real names
+        return evos
+
+
+parsers = {
+    "Name": parse_pokemon_name,
+    "InternalName": parse_internal_name,
+    "Types": parse_types,
+    "BaseStats": parse_base_stats,
+    "GenderRate": parse_gender_rate,
+    "GrowthRate": parse_growth_rate,
+    "BaseEXP": parse_base_exp,
+    "CatchRate": parse_catch_rate,
+    "Happiness": parse_base_happiness,
+    "Abilities": parse_abilities,
+    "Moves": parse_level_moves,
+    "LineMoves": parse_line_moves,
+    "TutorMoves": parse_tutor_moves,
+    "Tribes": parse_tribes,
+    "Height": parse_height,
+    "Weight": parse_weight,
+    "Color": parse_colour,
+    "Shape": parse_shape,
+    "Kind": parse_kind,
+    "Pokedex": parse_pokedex,
+    "WildItemCommon": parse_wild_item_common,
+    "WildItemUnommon": parse_wild_item_uncommon,
+    "WildItemRare": parse_wild_item_rare,
+    "FormName": parse_form,
+    "Evolutions": parse_evolutions,
+}
+
+
+def parse_mon(mon_text):
+    id = parse_pokedex_number(mon_text)
+    data = {"Pokedex": id}
+    for key, parser in parsers.items():
+        result = parser(mon_text)
+        if result:
+            data[key] = result
+    return (id, data)
+
+
+with open("../PBS/pokemon.txt", "r", encoding="utf8") as infile:
+    doc = infile.read()
+
+mons = doc.split("#-------------------------------")
+mons = mons[1:]  # first entry is a header, rest fit expected format
+
+pokemon = {}
+
+for mon_text in mons:
+    (id, data) = parse_mon(mon_text)
+    pokemon[id] = data
+
+# TODO: Proliferate necessary cross-line changes
+
+with open("../data/pokemon.json", "w", encoding="utf8") as outfile:
+    outfile.write(json.dumps(pokemon, indent=4))
