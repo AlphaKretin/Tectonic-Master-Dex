@@ -35,7 +35,7 @@ def parse_number(regex):
 
 
 # Index
-parse_internal_name = parse_basic_string(r"^\[([A-Z]+)\]")
+parse_internal_name = parse_basic_string(r"^\[([A-Z0-9]+)\]")
 
 
 # Name

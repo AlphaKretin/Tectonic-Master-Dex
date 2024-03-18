@@ -4207,8 +4207,8 @@
         "Target": "User",
         "Description": "The user changes its type to become the same type as one of its moves."
     },
-    "null": {
-        "InternalName": null,
+    "CONVERSION2": {
+        "InternalName": "CONVERSION2",
         "Name": "Conversion 2",
         "Type": "Normal",
         "Category": "Status",
