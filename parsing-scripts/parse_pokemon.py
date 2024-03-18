@@ -243,8 +243,8 @@ def parse_evolutions(mon_text):
 
 
 parsers = {
+    "Number": parse_pokedex_number,
     "Name": parse_pokemon_name,
-    "InternalName": parse_internal_name,
     "Types": parse_types,
     "BaseStats": parse_base_stats,
     "GenderRate": parse_gender_rate,
@@ -272,8 +272,8 @@ parsers = {
 
 
 def parse_mon(mon_text):
-    id = parse_pokedex_number(mon_text)
-    data = {"Pokedex": id}
+    id = parse_internal_name(mon_text)
+    data = {"InternalName": id}
     for key, parser in parsers.items():
         result = parser(mon_text)
         if result:
@@ -294,6 +294,19 @@ for mon_text in mons:
     pokemon[id] = data
 
 # TODO: Proliferate necessary cross-line changes
+for mon, data in pokemon.items():
+    if "Evolutions" in data:
+        for evo in data["Evolutions"]:
+            # assuming a pokemon only has one prevo so we don't need to handle multiple
+            pokemon[evo["Pokemon"]]["Prevolutions"] = [
+                {
+                    "Pokemon": mon,
+                    "Method": evo["Method"],
+                    "Condition": evo["Condition"],
+                }
+            ]
+
+# TODO: Read in encounter data
 
 with open("../data/pokemon.json", "w", encoding="utf8") as outfile:
     outfile.write(json.dumps(pokemon, indent=4))
