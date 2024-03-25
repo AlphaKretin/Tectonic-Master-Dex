@@ -1,0 +1,74 @@
+{
+    "FIRESTONE": {
+        "key": "FIRESTONE",
+        "name": "Fire Stone"
+    },
+    "THUNDERSTONE": {
+        "key": "THUNDERSTONE",
+        "name": "Thunder Stone"
+    },
+    "WATERSTONE": {
+        "key": "WATERSTONE",
+        "name": "Water Stone"
+    },
+    "LEAFSTONE": {
+        "key": "LEAFSTONE",
+        "name": "Leaf Stone"
+    },
+    "MOONSTONE": {
+        "key": "MOONSTONE",
+        "name": "Moon Stone"
+    },
+    "SUNSTONE": {
+        "key": "SUNSTONE",
+        "name": "Sun Stone"
+    },
+    "DUSKSTONE": {
+        "key": "DUSKSTONE",
+        "name": "Dusk Stone"
+    },
+    "DAWNSTONE": {
+        "key": "DAWNSTONE",
+        "name": "Dawn Stone"
+    },
+    "SHINYSTONE": {
+        "key": "SHINYSTONE",
+        "name": "Shiny Stone"
+    },
+    "ICESTONE": {
+        "key": "ICESTONE",
+        "name": "Ice Stone"
+    },
+    "DIAMONDTIARA": {
+        "key": "DIAMONDTIARA",
+        "name": "Diamond Tiara"
+    },
+    "KNIGHTHELMET": {
+        "key": "KNIGHTHELMET",
+        "name": "Knight Helmet"
+    },
+    "NINJASCARF": {
+        "key": "NINJASCARF",
+        "name": "Ninja Scarf"
+    },
+    "ALOLANWREATH": {
+        "key": "ALOLANWREATH",
+        "name": "Alolan Wreath"
+    },
+    "GALARICAWREATH": {
+        "key": "GALARICAWREATH",
+        "name": "Galarica Wreath"
+    },
+    "SWEETAPPLE": {
+        "key": "SWEETAPPLE",
+        "name": "Sweet Apple"
+    },
+    "TARTAPPLE": {
+        "key": "TARTAPPLE",
+        "name": "Tart Apple"
+    },
+    "ANCIENTSEAWATER": {
+        "key": "ANCIENTSEAWATER",
+        "name": "Ancient Sea Water"
+    }
+}

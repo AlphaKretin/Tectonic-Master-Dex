@@ -1,0 +1,270 @@
+{
+    "REPEL": {
+        "key": "REPEL",
+        "name": "Repel"
+    },
+    "HONEY": {
+        "key": "HONEY",
+        "name": "Honey"
+    },
+    "PRETTYFEATHER": {
+        "key": "PRETTYFEATHER",
+        "name": "Pretty Feather"
+    },
+    "TINYMUSHROOM": {
+        "key": "TINYMUSHROOM",
+        "name": "Tiny Mushroom"
+    },
+    "BIGMUSHROOM": {
+        "key": "BIGMUSHROOM",
+        "name": "Big Mushroom"
+    },
+    "PEARL": {
+        "key": "PEARL",
+        "name": "Pearl"
+    },
+    "BIGPEARL": {
+        "key": "BIGPEARL",
+        "name": "Big Pearl"
+    },
+    "PEARLSTRING": {
+        "key": "PEARLSTRING",
+        "name": "Pearl String"
+    },
+    "STARDUST": {
+        "key": "STARDUST",
+        "name": "Stardust"
+    },
+    "STARPIECE": {
+        "key": "STARPIECE",
+        "name": "Star Piece"
+    },
+    "NUGGET": {
+        "key": "NUGGET",
+        "name": "Gold Nugget"
+    },
+    "RAREBONE": {
+        "key": "RAREBONE",
+        "name": "Rare Bone"
+    },
+    "SHEDSHELL": {
+        "key": "SHEDSHELL",
+        "name": "Shed Shell"
+    },
+    "SMOKEBALL": {
+        "key": "SMOKEBALL",
+        "name": "Smoke Ball"
+    },
+    "LUCKYEGG": {
+        "key": "LUCKYEGG",
+        "name": "Lucky Egg"
+    },
+    "CLEANSETAG": {
+        "key": "CLEANSETAG",
+        "name": "Cleanse Tag"
+    },
+    "LIGHTCLAY": {
+        "key": "LIGHTCLAY",
+        "name": "Light Clay"
+    },
+    "BIGROOT": {
+        "key": "BIGROOT",
+        "name": "Big Root"
+    },
+    "LEFTOVERS": {
+        "key": "LEFTOVERS",
+        "name": "Leftovers"
+    },
+    "MENTALHERB": {
+        "key": "MENTALHERB",
+        "name": "Mental Herb"
+    },
+    "POWERHERB": {
+        "key": "POWERHERB",
+        "name": "Power Herb"
+    },
+    "EXPERTBELT": {
+        "key": "EXPERTBELT",
+        "name": "Expert Belt"
+    },
+    "METRONOME": {
+        "key": "METRONOME",
+        "name": "Metronome"
+    },
+    "SCOPELENS": {
+        "key": "SCOPELENS",
+        "name": "Scope Lens"
+    },
+    "WIDELENS": {
+        "key": "WIDELENS",
+        "name": "Wide Lens"
+    },
+    "LAGGINGTAIL": {
+        "key": "LAGGINGTAIL",
+        "name": "Lagging Tail"
+    },
+    "STICKYBARB": {
+        "key": "STICKYBARB",
+        "name": "Sticky Barb"
+    },
+    "EVERSTONE": {
+        "key": "EVERSTONE",
+        "name": "Everstone"
+    },
+    "IRONBALL": {
+        "key": "IRONBALL",
+        "name": "Iron Ball"
+    },
+    "CHARCOAL": {
+        "key": "CHARCOAL",
+        "name": "Charcoal"
+    },
+    "MYSTICWATER": {
+        "key": "MYSTICWATER",
+        "name": "Mystic Water"
+    },
+    "MAGNET": {
+        "key": "MAGNET",
+        "name": "Magnet"
+    },
+    "MIRACLESEED": {
+        "key": "MIRACLESEED",
+        "name": "Miracle Seed"
+    },
+    "NEVERMELTICE": {
+        "key": "NEVERMELTICE",
+        "name": "Never-Melt Ice"
+    },
+    "BLACKBELT": {
+        "key": "BLACKBELT",
+        "name": "Black Belt"
+    },
+    "POISONBARB": {
+        "key": "POISONBARB",
+        "name": "Poison Barb"
+    },
+    "SOFTSAND": {
+        "key": "SOFTSAND",
+        "name": "Soft Sand"
+    },
+    "SHARPBEAK": {
+        "key": "SHARPBEAK",
+        "name": "Sharp Beak"
+    },
+    "TWISTEDSPOON": {
+        "key": "TWISTEDSPOON",
+        "name": "Twisted Spoon"
+    },
+    "SILVERPOWDER": {
+        "key": "SILVERPOWDER",
+        "name": "Silver Powder"
+    },
+    "HARDSTONE": {
+        "key": "HARDSTONE",
+        "name": "Hard Stone"
+    },
+    "SPELLTAG": {
+        "key": "SPELLTAG",
+        "name": "Spell Tag"
+    },
+    "DRAGONFANG": {
+        "key": "DRAGONFANG",
+        "name": "Dragon Fang"
+    },
+    "BLACKGLASSES": {
+        "key": "BLACKGLASSES",
+        "name": "Black Glasses"
+    },
+    "METALCOAT": {
+        "key": "METALCOAT",
+        "name": "Metal Coat"
+    },
+    "SILKSCARF": {
+        "key": "SILKSCARF",
+        "name": "Silk Scarf"
+    },
+    "POTION": {
+        "key": "POTION",
+        "name": "Potion"
+    },
+    "SUPERPOTION": {
+        "key": "SUPERPOTION",
+        "name": "Super Potion"
+    },
+    "SACREDASH": {
+        "key": "SACREDASH",
+        "name": "Sacred Ash"
+    },
+    "BERRYJUICE": {
+        "key": "BERRYJUICE",
+        "name": "Berry Juice"
+    },
+    "MOOMOOMILK": {
+        "key": "MOOMOOMILK",
+        "name": "Moomoo Milk"
+    },
+    "POKEBALL": {
+        "key": "POKEBALL",
+        "name": "Pok\u00e9 Ball"
+    },
+    "CHERIBERRY": {
+        "key": "CHERIBERRY",
+        "name": "Cheri Berry"
+    },
+    "CHESTOBERRY": {
+        "key": "CHESTOBERRY",
+        "name": "Chesto Berry"
+    },
+    "PECHABERRY": {
+        "key": "PECHABERRY",
+        "name": "Pecha Berry"
+    },
+    "RAWSTBERRY": {
+        "key": "RAWSTBERRY",
+        "name": "Rawst Berry"
+    },
+    "ASPEARBERRY": {
+        "key": "ASPEARBERRY",
+        "name": "Aspear Berry"
+    },
+    "CADOBERRY": {
+        "key": "CADOBERRY",
+        "name": "Cado Berry"
+    },
+    "PERSIMBERRY": {
+        "key": "PERSIMBERRY",
+        "name": "Persim Berry"
+    },
+    "LUMBERRY": {
+        "key": "LUMBERRY",
+        "name": "Lum Berry"
+    },
+    "SITRUSBERRY": {
+        "key": "SITRUSBERRY",
+        "name": "Sitrus Berry"
+    },
+    "EXPCANDYS": {
+        "key": "EXPCANDYS",
+        "name": "Exp. Candy S"
+    },
+    "EXPCANDYM": {
+        "key": "EXPCANDYM",
+        "name": "Exp. Candy M"
+    },
+    "RUSTEDSHIELD": {
+        "key": "RUSTEDSHIELD",
+        "name": "Rusted Shield"
+    },
+    "RUSTEDSWORD": {
+        "key": "RUSTEDSWORD",
+        "name": "Rusted Sword"
+    },
+    "DYNAMITESTICK": {
+        "key": "DYNAMITESTICK",
+        "name": "Dynamite Stick"
+    },
+    "FAIRYFEATHER": {
+        "key": "FAIRYFEATHER",
+        "name": "Fairy Feather"
+    }
+}
